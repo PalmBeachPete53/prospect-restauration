@@ -32,6 +32,14 @@ Critères de sélection : `design ≥ 10` (`≥ 8` pour la Normandie afin d'atte
 Script : `select_tourisme.py` — évalue les candidats (pool de 100 dans
 `restaurants_tourisme_pool.csv`), applique les quotas par région et les filtres étrangers.
 
+### `restaurants_tourisme_next20.csv` — 20 prospects suivants (2e vague)
+Même pool de 100, mêmes critères (`design`/`tourisme`/filtres étrangers), en excluant
+les 40 déjà retenus dans `restaurants_tourisme_top40.csv`. Les 60 candidats restants du
+pool sont classés par `score_design` puis `tourisme` décroissants ; les 20 meilleurs sont
+tous en **Île-de-France** — Normandie et Côte d'Azur n'ont plus que 3-4 candidats
+résiduels de score très faible (8-10) après le premier tirage.
+Script : `select_tourisme_next20.py`.
+
 ## Source des données
 
 **OpenStreetMap** (publique, licence ODbL) via l'API Overpass : requêtes
