@@ -1,0 +1,41 @@
+site_web;nom_restaurant;score_design;score_anciennete;non_responsive;sans_https;techno;copyright;html_s;css_s;tech_s;signaux_html;signaux_css
+restaurantlecalife.free.fr;Le Calife;80;10;oui;oui;—;2018;49;31;0;layout en tableaux (10) | balises <font> (2) | bgcolor= | sans doctype | non responsive;pas de @media | px uniquement | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+aurelaisdanje.fr;Au Relais d'Anje;77;8;oui;oui;—;2023;55;22;0;layout en tableaux (5) | balises <font> (6) | <center> | <marquee> | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+mikes-bistro.net;Mike's Bistro;77;8;oui;oui;—;—;49;28;0;layout en tableaux (10) | balises <font> (21) | bgcolor= | sans doctype | non responsive;pas de @media | pas de flex/grid | CSS tres court (349B) | aucun radius/ombre
+restaurant-ocourant.com;O Courant;71;8;oui;non;—;1999;46;25;0;layout en tableaux (10) | balises <font> (1) | doctype ancien | non responsive | images .gif;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+bas-breau.com;Hôtellerie du Bas-Bréau;70;8;oui;oui;—;2024;48;22;0;layout en tableaux (3) | balises <font> (1) | <center> | doctype ancien | non responsive;pas de @media | pas de flex/grid | aucun radius/ombre
+delices-du-sommelier.fr;Les Délices du Sommelier;69;8;oui;oui;—;—;44;25;0;layout en tableaux (6) | balises <font> (1) | sans doctype | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+pizzalezard.com;Pizza Lezard;61;10;oui;oui;—;1999;39;22;0;balises <font> (1) | <center> | bgcolor= | doctype ancien | non responsive;pas de @media | pas de flex/grid | aucun radius/ombre
+lesalondevauban.fr;Salon de Vauban;57;11;oui;oui;microsoft frontpage 4.0;2025;35;0;22;balises <font> (47) | bgcolor= | sans doctype | non responsive | generateur obsolete;—
+restaurant-le-goeland.fr;Le Goëland;56;6;oui;non;—;2026;25;31;0;balises <font> (2) | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+restaurant-leparis-metz.fr;Le Paris;56;5;oui;oui;—;—;25;31;0;balises <font> (16) | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+christophe.boitrand.free.fr;L'Amaryllis;55;8;oui;oui;—;2026;20;35;0;<center> | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (287B) | police vintage | aucun radius/ombre
+lesoleilduparc.fr;Le Soleil du Parc;55;5;oui;non;—;2014;33;22;0;layout en tableaux (4) | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+ya-souvlaki.com;Ya Souvlaki;55;10;oui;oui;—;2015;55;0;0;layout en tableaux (11) | balises <font> (9) | bgcolor= | sans doctype | non responsive | <br> en masse | images .gif;—
+unoparis.com;Uno;55;8;oui;non;—;1999;24;31;0;<center> | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (301B) | aucun radius/ombre
+issytokyo.fr;Issy Tokyo;54;10;oui;oui;—;1999;29;25;0;balises <font> (2) | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+mikespizza.fr;Mike's pizza;54;5;oui;non;provensite;1999;23;31;0;doctype ancien | non responsive | document.write;pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (2B) | aucun radius/ombre
+prixfixe.net;Prix Fixe;53;10;oui;oui;—;2019;24;29;0;bgcolor= | non responsive | document.write;pas de @media | pas de flex/grid | pas de variables CSS | police vintage | aucun radius/ombre
+lepinceoreille.fr;Le Pince Oreille;52;6;oui;non;—;2065;27;25;0;<center> | doctype ancien | non responsive | <br> en masse;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+caux.fr;Cantine municipale;51;6;oui;non;—;2026;29;22;0;balises <font> (1) | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+paradice.fr;Le Paradice;50;10;oui;oui;lmsoft web creator pro, version:8.0.0.22;2005;25;25;0;balises <font> (65) | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+le.pont.de.thorey.free.fr;Restaurant du Pont de Thorey;48;10;oui;oui;izispot 4.20 (www.izispot.com);2008;48;0;0;layout en tableaux (6) | balises <font> (13) | bgcolor= | doctype ancien | non responsive;—
+lybiapizza.fr;Lybia Pizza;48;6;oui;non;joomla! - open source content management;2026;19;17;12;doctype ancien | non responsive | Joomla;pas de @media | pas de variables CSS
+verona-antony.fr;Pizza Verona;48;5;oui;non;—;1999;19;29;0;non responsive | document.write;pas de @media | pas de flex/grid | pas de variables CSS | police vintage | aucun radius/ombre
+vieuxchateau.com;Ferme auberge du Vieux Château;48;8;oui;oui;—;—;48;0;0;layout en tableaux (7) | <center> | bgcolor= | sans doctype | non responsive | document.write;—
+aubergedestours.free.fr;Auberge des Tours;47;10;oui;oui;—;2010;25;22;0;bgcolor= | sans doctype | non responsive;pas de @media | pas de flex/grid | aucun radius/ombre
+amordipizza.fr;Amor Di Pizza;47;6;oui;non;—;2025;47;0;0;layout en tableaux (98) | balises <font> (30) | <center> | non responsive | <br> en masse;—
+seven-pizza.bzh;Seven Pizza;47;6;oui;non;—;2025;47;0;0;layout en tableaux (14) | balises <font> (23) | <center> | non responsive | <br> en masse;—
+mercadante.free.fr;Le Mercadante;46;8;oui;oui;microsoft frontpage express 2.0;—;24;0;22;sans doctype | non responsive | document.write | generateur obsolete;—
+alafraite.com;Domaine de la Fraite;46;8;oui;oui;—;2026;46;0;0;layout en tableaux (3) | balises <font> (22) | non responsive | <br> en masse | document.write;—
+laremise.net;La Remise;46;8;oui;non;—;1999;24;22;0;<center> | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+sushimarche.fr;Sushi Gourmet;45;8;oui;oui;joomla! - open source content management;2026;22;11;12;doctype ancien | non responsive | images .gif | Joomla;pas de flex/grid | pas de variables CSS | aucun radius/ombre
+restaurant-levolcan.fr;Le Volcan;45;5;oui;non;—;2021;20;25;0;sans doctype | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+le-vieux-mazot.fr;Le Vieux Mazot;44;7;oui;oui;—;2010;19;25;0;doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+le-sucre-sale.fr;Le Sucré Salé;44;5;oui;non;—;2012;19;25;0;doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+aiduesanti.com;Ai Due Santi;44;7;oui;oui;—;2012;19;25;0;doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+alrustico.weebly.com;Al Rustico;43;8;oui;non;—;2011;43;0;0;layout en tableaux (12) | balises <font> (11) | non responsive | document.write;—
+sakuralifan.fr;Sakura;42;7;oui;oui;jhdesign;2014;19;23;0;doctype ancien | non responsive;pas de @media | pas de flex/grid | police vintage
+yakasushi.fr;Yaka Sushi;42;5;non;non;—;2014;23;19;0;layout en tableaux (4) | bgcolor= | doctype ancien;pas de @media | pas de flex/grid
+lcancuna.fr;L’Cancuna;42;5;oui;non;webacappella 4.6.26 free (win);2021;23;19;0;doctype ancien | non responsive | document.write;pas de @media | pas de flex/grid
+zazai.fr;Zazaï;41;8;oui;oui;—;2080;41;0;0;layout en tableaux (13) | bgcolor= | doctype ancien | non responsive | images .gif;—

@@ -1,0 +1,41 @@
+site_web;nom;region;dept;cp;design;tourisme;anciennete;non_responsif;sans_https;techno;signaux_design
+bas-breau.com;Hôtellerie du Bas-Bréau;Ile-de-France;77;77630;70;4;8;oui;oui;—;layout en tableaux (3) | balises <font> (1) | <center> | doctype ancien | non responsive | pas de @media | pas de flex/grid | aucun radius/ombre
+lepalaisindien.com;Le Palais Indien;Normandie;76;76000;58;4;5;oui;non;—;layout en tableaux (5) | doctype ancien | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+le-maryland-blanzy.com;Hôtel-Restaurant Le Maryland;Normandie;50;50750;56;5;5;oui;oui;—;balises <font> (2) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+verona-antony.fr;Pizza Verona;Ile-de-France;92;92160;48;4;5;oui;non;—;non responsive | document.write | pas de @media | pas de flex/grid | pas de variables CSS | police vintage | aucun radius/ombre
+aubergedestours.free.fr;Auberge des Tours;Ile-de-France;77;77115;47;4;10;oui;oui;—;bgcolor= | sans doctype | non responsive | pas de @media | pas de flex/grid | aucun radius/ombre
+zazai.fr;Zazaï;Cote d'Azur;13;13540;41;4;8;oui;oui;—;layout en tableaux (13) | bgcolor= | doctype ancien | non responsive | images .gif
+spicyworld8.webnode.fr;Spicy World;Ile-de-France;92;92110;41;4;5;oui;non;webnode;doctype ancien | non responsive | pas de @media | pas de flex/grid | aucun radius/ombre
+rossini.pizzeria.free.fr;Rossini;Ile-de-France;75;75018;39;5;10;oui;oui;incomedia website x5 evolution evolution 8.0.9 - www.website;<center> | non responsive | pas de @media | pas de flex/grid
+asahi14.fr;Asahi;Ile-de-France;75;75014;37;5;5;oui;oui;—;non responsive | document.write | pas de @media | police vintage
+restaurantradha.fr;Radha;Ile-de-France;94;94170;37;4;3;oui;non;xara html filter v.8.4.0.215;doctype ancien | document.write | pas de @media | pas de flex/grid | pas de variables CSS | police vintage | aucun radius/ombre
+bistrolecarreau.fr;Le Carreau;Ile-de-France;75;75003;35;5;6;oui;non;—;balises <font> (1) | <center> | bgcolor= | non responsive
+solemar-paris.fr;Solemar;Ile-de-France;75;75016;32;5;0;non;non;serif webplus x8 (16,0,4,32);pas de @media | px uniquement | pas de flex/grid | pas de variables CSS | police vintage
+greenstory-bar.fr;Green Story;Ile-de-France;78;78000;29;5;0;non;non;—;document.write | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+nagoya-rueil.com;Nagoya;Ile-de-France;92;92500;29;4;6;oui;non;—;balises <font> (20) | non responsive | police vintage
+sushi-nagoya.fr;Nagoya Sushi;Ile-de-France;75;75012;28;5;8;oui;oui;—;bgcolor= | non responsive | pas de flex/grid | pas de variables CSS
+relais-routiers.com;Aux amis de la route;Cote d'Azur;84;84558;28;4;0;non;non;—;layout en tableaux (204) | <br> en masse | images .gif | pas de flex/grid | pas de variables CSS
+atelierp1.fr;P1Bouche;Ile-de-France;75;75018;26;5;0;non;non;"elementor 4.2.2; features: additional_custom_breakpoints; se";document.write | pas de @media | pas de flex/grid | pas de variables CSS
+restaurant-omkara.com;Omkara;Ile-de-France;78;78360;26;5;2;non;non;—;pas de @media | pas de variables CSS | CSS tres court (244B) | aucun radius/ombre
+restaurantlamaisondejeanne.blogspot.fr;La Maison de Jeanne;Cote d'Azur;13;13460;23;4;3;oui;non;—;non responsive | pas de flex/grid | pas de variables CSS
+alexandremazzia.com;AM (Alexandre Mazzia);Cote d'Azur;13;13008;21;4;0;non;non;wordpress 7.0.3;document.write | pas de @media | pas de variables CSS
+limpro-resto.fr;L'Impro;Cote d'Azur;83;83136;20;5;0;non;non;wordpress 7.0.3;sans doctype | non responsive
+beansmarseille.com;Beans Marseille Brunch;Cote d'Azur;13;13006;18;4;3;oui;non;—;non responsive | pas de variables CSS
+lestontonsraleurs.fr;Les Tontons Râleurs;Normandie;14;14390;17;5;0;non;non;wordpress 7.0.3;px uniquement | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+bigoteverde.com;Bigote Verde;Cote d'Azur;13;13406;17;4;2;non;non;wix.com website builder;pas de @media | pas de variables CSS
+auberge-pointsublime.com;Auberge du Point Sublime;Cote d'Azur;13;13682;17;4;0;non;non;wordpress 7.0.3;pas de @media | pas de variables CSS
+vintageartcompagnie.com;Vintage Art Compagnie;Normandie;76;76700;17;4;3;oui;non;wix.com website builder;pas de @media | pas de variables CSS
+pizzeria-colosseum.jimdofree.com;Colosseum;Normandie;50;50825;15;5;5;oui;non;jimdo creator;non responsive
+aix-en-provence.lespetitescantines.org;Les Petites Cantines (Aix);Cote d'Azur;13;13090;15;4;3;oui;non;—;non responsive
+bastide-neuve.com;Auberge La Bastide Neuve;Cote d'Azur;84;84530;15;4;3;non;non;wordpress 6.9.6;balises <font> (8) | <center>
+simone.onataste.fr;Simone;Normandie;76;76000;15;4;3;oui;non;—;non responsive
+500degres-pizza.com;500 Degrés Pizza;Cote d'Azur;13;13001;14;4;0;non;non;wordpress 7.0.3;pas de @media
+akumafoodfare.com;Akuma;Cote d'Azur;84;84932;14;4;0;non;non;—;pas de @media
+brasserie-lespetitsprinces.com;Les Petits Princes;Normandie;14;14800;11;5;0;non;non;wordpress 7.0.3;pas de flex/grid | pas de variables CSS | aucun radius/ombre
+saveurs-hanoi.fr;Saveurs d’Hanoï;Cote d'Azur;84;84160;11;4;0;non;non;wordpress 7.0.3;<br> en masse | pas de flex/grid | pas de variables CSS
+acontresens.fr;A Contre Sens;Normandie;14;14000;10;5;0;non;non;wordpress 6.5.8;balises <font> (1)
+sasesu.com;Sasésu;Normandie;14;14000;10;5;3;non;non;—;balises <font> (1)
+sushifirst.fr;Sushi First;Normandie;76;76420;10;4;5;non;non;—;<center> | pas de flex/grid
+le607.com;Le 607;Normandie;76;76530;10;4;5;non;non;—;<center> | pas de flex/grid
+sushi-first.com;Sushi First;Normandie;76;76310;10;4;5;non;non;—;<center> | pas de flex/grid
+capricorniaries.com;Capricorn (i) Aries;Normandie;50;50678;8;5;0;non;non;—;pas de flex/grid | pas de variables CSS

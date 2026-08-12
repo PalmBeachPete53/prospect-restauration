@@ -1,0 +1,201 @@
+site_web;nom_restaurant;score_design;score_anciennete;non_responsive;sans_https;techno;copyright;html_s;css_s;tech_s;signaux_html;signaux_css
+restaurantlecalife.free.fr;Le Calife;80;10;oui;oui;—;2018;49;31;0;layout en tableaux (10) | balises <font> (2) | bgcolor= | sans doctype | non responsive;pas de @media | px uniquement | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+aurelaisdanje.fr;Au Relais d'Anje;77;8;oui;oui;—;2023;55;22;0;layout en tableaux (5) | balises <font> (6) | <center> | <marquee> | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+mikes-bistro.net;Mike's Bistro;77;8;oui;oui;—;—;49;28;0;layout en tableaux (10) | balises <font> (21) | bgcolor= | sans doctype | non responsive;pas de @media | pas de flex/grid | CSS tres court (349B) | aucun radius/ombre
+restaurant-ocourant.com;O Courant;71;8;oui;non;—;1999;46;25;0;layout en tableaux (10) | balises <font> (1) | doctype ancien | non responsive | images .gif;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+bas-breau.com;Hôtellerie du Bas-Bréau;70;8;oui;oui;—;2024;48;22;0;layout en tableaux (3) | balises <font> (1) | <center> | doctype ancien | non responsive;pas de @media | pas de flex/grid | aucun radius/ombre
+delices-du-sommelier.fr;Les Délices du Sommelier;69;8;oui;oui;—;—;44;25;0;layout en tableaux (6) | balises <font> (1) | sans doctype | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+pizzalezard.com;Pizza Lezard;61;10;oui;oui;—;1999;39;22;0;balises <font> (1) | <center> | bgcolor= | doctype ancien | non responsive;pas de @media | pas de flex/grid | aucun radius/ombre
+lesalondevauban.fr;Salon de Vauban;57;11;oui;oui;microsoft frontpage 4.0;2025;35;0;22;balises <font> (47) | bgcolor= | sans doctype | non responsive | generateur obsolete;—
+restaurant-le-goeland.fr;Le Goëland;56;6;oui;non;—;2026;25;31;0;balises <font> (2) | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+restaurant-leparis-metz.fr;Le Paris;56;5;oui;oui;—;—;25;31;0;balises <font> (16) | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+christophe.boitrand.free.fr;L'Amaryllis;55;8;oui;oui;—;2026;20;35;0;<center> | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (287B) | police vintage | aucun radius/ombre
+lesoleilduparc.fr;Le Soleil du Parc;55;5;oui;non;—;2014;33;22;0;layout en tableaux (4) | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+ya-souvlaki.com;Ya Souvlaki;55;10;oui;oui;—;2015;55;0;0;layout en tableaux (11) | balises <font> (9) | bgcolor= | sans doctype | non responsive | <br> en masse | images .gif;—
+unoparis.com;Uno;55;8;oui;non;—;1999;24;31;0;<center> | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (301B) | aucun radius/ombre
+issytokyo.fr;Issy Tokyo;54;10;oui;oui;—;1999;29;25;0;balises <font> (2) | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+mikespizza.fr;Mike's pizza;54;5;oui;non;provensite;1999;23;31;0;doctype ancien | non responsive | document.write;pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (2B) | aucun radius/ombre
+prixfixe.net;Prix Fixe;53;10;oui;oui;—;2019;24;29;0;bgcolor= | non responsive | document.write;pas de @media | pas de flex/grid | pas de variables CSS | police vintage | aucun radius/ombre
+lepinceoreille.fr;Le Pince Oreille;52;6;oui;non;—;2065;27;25;0;<center> | doctype ancien | non responsive | <br> en masse;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+caux.fr;Cantine municipale;51;6;oui;non;—;2026;29;22;0;balises <font> (1) | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+paradice.fr;Le Paradice;50;10;oui;oui;lmsoft web creator pro, version:8.0.0.22;2005;25;25;0;balises <font> (65) | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+le.pont.de.thorey.free.fr;Restaurant du Pont de Thorey;48;10;oui;oui;izispot 4.20 (www.izispot.com);2008;48;0;0;layout en tableaux (6) | balises <font> (13) | bgcolor= | doctype ancien | non responsive;—
+lybiapizza.fr;Lybia Pizza;48;6;oui;non;joomla! - open source content management;2026;19;17;12;doctype ancien | non responsive | Joomla;pas de @media | pas de variables CSS
+verona-antony.fr;Pizza Verona;48;5;oui;non;—;1999;19;29;0;non responsive | document.write;pas de @media | pas de flex/grid | pas de variables CSS | police vintage | aucun radius/ombre
+vieuxchateau.com;Ferme auberge du Vieux Château;48;8;oui;oui;—;—;48;0;0;layout en tableaux (7) | <center> | bgcolor= | sans doctype | non responsive | document.write;—
+aubergedestours.free.fr;Auberge des Tours;47;10;oui;oui;—;2010;25;22;0;bgcolor= | sans doctype | non responsive;pas de @media | pas de flex/grid | aucun radius/ombre
+amordipizza.fr;Amor Di Pizza;47;6;oui;non;—;2025;47;0;0;layout en tableaux (98) | balises <font> (30) | <center> | non responsive | <br> en masse;—
+seven-pizza.bzh;Seven Pizza;47;6;oui;non;—;2025;47;0;0;layout en tableaux (14) | balises <font> (23) | <center> | non responsive | <br> en masse;—
+mercadante.free.fr;Le Mercadante;46;8;oui;oui;microsoft frontpage express 2.0;—;24;0;22;sans doctype | non responsive | document.write | generateur obsolete;—
+alafraite.com;Domaine de la Fraite;46;8;oui;oui;—;2026;46;0;0;layout en tableaux (3) | balises <font> (22) | non responsive | <br> en masse | document.write;—
+laremise.net;La Remise;46;8;oui;non;—;1999;24;22;0;<center> | doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+sushimarche.fr;Sushi Gourmet;45;8;oui;oui;joomla! - open source content management;2026;22;11;12;doctype ancien | non responsive | images .gif | Joomla;pas de flex/grid | pas de variables CSS | aucun radius/ombre
+restaurant-levolcan.fr;Le Volcan;45;5;oui;non;—;2021;20;25;0;sans doctype | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+le-vieux-mazot.fr;Le Vieux Mazot;44;7;oui;oui;—;2010;19;25;0;doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+le-sucre-sale.fr;Le Sucré Salé;44;5;oui;non;—;2012;19;25;0;doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+aiduesanti.com;Ai Due Santi;44;7;oui;oui;—;2012;19;25;0;doctype ancien | non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+alrustico.weebly.com;Al Rustico;43;8;oui;non;—;2011;43;0;0;layout en tableaux (12) | balises <font> (11) | non responsive | document.write;—
+sakuralifan.fr;Sakura;42;7;oui;oui;jhdesign;2014;19;23;0;doctype ancien | non responsive;pas de @media | pas de flex/grid | police vintage
+yakasushi.fr;Yaka Sushi;42;5;non;non;—;2014;23;19;0;layout en tableaux (4) | bgcolor= | doctype ancien;pas de @media | pas de flex/grid
+lcancuna.fr;L’Cancuna;42;5;oui;non;webacappella 4.6.26 free (win);2021;23;19;0;doctype ancien | non responsive | document.write;pas de @media | pas de flex/grid
+zazai.fr;Zazaï;41;8;oui;oui;—;2080;41;0;0;layout en tableaux (13) | bgcolor= | doctype ancien | non responsive | images .gif;—
+la-rotonde.webnode.fr;La Rotonde;41;5;oui;non;webnode;2015;19;22;0;doctype ancien | non responsive;pas de @media | pas de flex/grid | aucun radius/ombre
+spicyworld8.webnode.fr;Spicy World;41;5;oui;non;webnode;2012;19;22;0;doctype ancien | non responsive;pas de @media | pas de flex/grid | aucun radius/ombre
+restaurant-lepetitmontagnard.com;Le P'tit Montagnard;41;8;oui;oui;—;2026;41;0;0;layout en tableaux (5) | <center> | doctype ancien | non responsive | images .gif;—
+saigon.albi.free.fr;Nouveau Saigon;40;7;oui;oui;—;1999;15;25;0;non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+sakesushi.fr;Saké Sushi;40;7;oui;oui;—;2014;15;25;0;non responsive;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+restaurant-tomo.fr;TOMO;40;6;oui;non;—;—;40;0;0;balises <font> (20) | <center> | bgcolor= | sans doctype | non responsive;—
+rossini.pizzeria.free.fr;Rossini;39;10;oui;oui;incomedia website x5 evolution evolution 8.0.9 - www.website;2009;20;19;0;<center> | non responsive;pas de @media | pas de flex/grid
+resto-pinocchio.fr;Le Pinocchio;39;8;oui;non;notepad ++;2020;20;19;0;<center> | non responsive;pas de @media | pas de flex/grid
+aldar.fr;Al Dar;38;5;oui;oui;—;2026;19;19;0;doctype ancien | non responsive;pas de @media | pas de flex/grid
+sushiking77.fr;Sushi King;37;7;oui;oui;—;2014;19;18;0;doctype ancien | non responsive;pas de @media | police vintage
+cafe-de-la-mairie-78.fr;Café de la Mairie;37;5;oui;oui;—;2026;15;22;0;non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+15baht.fr;15 Baht;37;5;oui;oui;—;2026;15;22;0;non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+asahi14.fr;Asahi;37;5;oui;oui;—;2026;19;18;0;non responsive | document.write;pas de @media | police vintage
+amedelys.fr;Amédélys;37;5;oui;oui;—;2026;15;22;0;non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+restaurant-hotel-lesenfantsterribles34.fr;Les Enfants Terribles;37;5;oui;oui;—;2026;15;22;0;non responsive;pas de @media | pas de flex/grid | pas de variables CSS
+hotel-petitrelais.fr;Le Petit Relais;36;5;non;non;wordpress 4.9.30;2016;3;25;8;images .gif | WordPress 4;pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+lagaletiere.free.fr;La Galétière;35;8;oui;oui;—;—;35;0;0;balises <font> (1) | bgcolor= | sans doctype | non responsive;—
+pizzafiesta.fr;Pizza Fiesta;35;8;oui;non;—;2015;30;5;0;balises <font> (20) | <center> | non responsive;pas de flex/grid
+bistrolecarreau.fr;Le Carreau;35;6;oui;non;—;—;35;0;0;balises <font> (1) | <center> | bgcolor= | non responsive;—
+comptoirdalesia.fr;Comptoir d'Alésia;34;5;oui;non;httrack website copier/3.x;2008;34;0;0;layout en tableaux (6) | sans doctype | non responsive;—
+scala-pithiviers.fr;La Scala;34;5;non;non;joomla! - open source content management;2015;0;22;12;Joomla;pas de @media | pas de flex/grid | pas de variables CSS
+fajitasparis.com;Fajitas;34;8;oui;oui;—;—;34;0;0;balises <font> (3) | bgcolor= | doctype ancien | non responsive;—
+la-trinacria.fr;La Trinacria;33;6;oui;non;lauyan toweb 3.1.7.579;—;33;0;0;frameset | doctype ancien | non responsive | document.write;—
+lerondpointmetz.fr;Le Rond Point;33;5;non;non;wordpress 7.0.3;2016;5;28;0;<center>;pas de @media | px uniquement | pas de flex/grid | pas de variables CSS
+pizz-a-tony-lunel.fr;Pizz'a Tony;32;6;oui;non;—;2098;28;4;0;balises <font> (50) | non responsive | <br> en masse;police vintage
+101express.fr;Le 101 Express;32;5;oui;oui;prestashop;2046;15;17;0;non responsive;pas de @media | pas de variables CSS
+labohemia.fr;La Bohémia;30;8;oui;oui;—;—;30;0;0;balises <font> (2) | sans doctype | non responsive;—
+latabledestan.com;À la Table du Bon Roi Stanislas;30;8;oui;oui;—;—;30;0;0;frameset | sans doctype | non responsive;—
+restaurantmogador.free.fr;Mogador;29;10;oui;oui;editplus;2012;29;0;0;<center> | bgcolor= | doctype ancien | non responsive;—
+tanguy-crepes.fr;Tanguy;29;8;oui;oui;—;—;29;0;0;frameset | doctype ancien | non responsive;—
+leptitbouchon.fr;Le P'tit Bouchon;29;8;oui;oui;—;—;29;0;0;frameset | doctype ancien | non responsive;—
+lacasa-pizza.fr;La Casa;29;6;oui;non;—;2026;25;4;0;balises <font> (35) | non responsive;police vintage
+annadata.fr;Annadata;29;6;oui;non;—;2098;25;4;0;balises <font> (10) | non responsive;police vintage
+suzanne-montmartre.fr;Suzanne;29;6;oui;non;—;2026;25;4;0;balises <font> (13) | non responsive;police vintage
+ptitbistrot.voila.net;Bar Restaurant Le P'tit Bistrot;29;8;oui;oui;—;—;29;0;0;frameset | doctype ancien | non responsive;—
+chezwitt.com;Chez Witt;29;8;oui;oui;—;—;29;0;0;frameset | doctype ancien | non responsive;—
+leskorrigansduvidourle.com;Les Korrigans du Vidourle;29;8;oui;oui;—;—;29;0;0;frameset | doctype ancien | non responsive;—
+angelparadies.guefel.com;Güfel;29;8;non;non;wordpress 4.9.21;2016;13;8;8;balises <font> (2) | <br> en masse | WordPress 4;pas de flex/grid | pas de variables CSS
+sushi-nagoya.fr;Nagoya Sushi;28;8;oui;oui;—;2022;20;8;0;bgcolor= | non responsive;pas de flex/grid | pas de variables CSS
+villamimouna.fr;Villa Mimouna;28;6;oui;non;—;2086;28;0;0;bgcolor= | doctype ancien | non responsive | document.write;—
+restaurantlesirocco.fr;Le Sirocco;27;6;non;non;wordpress 4.9.30;2040;5;14;8;bgcolor= | WordPress 4;pas de @media
+marinsol.fr;Marin Sol;27;6;oui;non;joomla! - open source content management;2096;15;0;12;non responsive | Joomla;—
+restaurant-cantina.fr;Cantina;26;5;oui;oui;—;—;15;11;0;non responsive;pas de flex/grid | pas de variables CSS | aucun radius/ombre
+denboerenweg.free.fr;Estaminet den Boeren Weg;25;8;oui;oui;namo webeditor v5.0;—;25;0;0;bgcolor= | sans doctype | non responsive;—
+african-evasion-pontault.fr;African Evasion;25;8;oui;non;—;2018;20;5;0;<center> | non responsive;pas de flex/grid
+pizzerialepacha.fr;Le Pacha;25;8;oui;non;—;2020;20;5;0;<center> | non responsive;pas de flex/grid
+obuffet-angouleme.fr;O' Buffet;25;8;oui;oui;—;—;25;0;0;frameset | non responsive;—
+restaurant-lechelle.fr;L'Echelle;25;6;oui;non;—;2026;25;0;0;balises <font> (2) | non responsive;—
+adelita.fr;Adelita;25;6;oui;non;—;2098;25;0;0;balises <font> (51) | non responsive;—
+restaurant-le-saprien.fr;Le Saprien;25;6;oui;non;—;—;25;0;0;<center> | sans doctype | non responsive;—
+manhattanpizza-versailles.com;Pizzeria Manathan;25;8;oui;non;—;2017;20;5;0;<center> | non responsive;pas de flex/grid
+le-dominion.fr;Le Dominion;24;8;oui;non;—;2019;24;0;0;<center> | doctype ancien | non responsive;—
+lemarquee.fr;Le Marquee;24;6;oui;non;—;2024;24;0;0;bgcolor= | doctype ancien | non responsive;—
+restaurantlacourdulouvre.fr;La Cour du Louvre;24;5;oui;oui;—;—;24;0;0;sans doctype | non responsive | document.write;—
+vertmont.fr;Auberge du Vert Mont;23;8;oui;non;wordpress 4.9.27;2019;15;0;8;non responsive | WordPress 4;—
+le-bistrot-liffre.fr;Le Bistrot;22;7;non;oui;wordpress 4.9.30;2018;0;14;8;WordPress 4;pas de @media
+lareserveangers.fr;La Réserve;22;6;non;non;joomla! - open source content management;2026;10;0;12;balises <font> (2) | Joomla;—
+lacavesaintleo.fr;La Cave à Bière;22;6;non;non;joomla! - open source content management;2082;10;0;12;balises <font> (64) | Joomla;—
+toyo79.fr;Toyo;22;5;oui;oui;2018.1.0.386;2090;19;3;0;non responsive | document.write;pas de variables CSS
+l-iris.fr;L'Iris Restaurant;22;5;non;non;—;2003;14;8;0;balises <font> (24) | doctype ancien;pas de flex/grid | pas de variables CSS
+pizza-dimario.fr;Pizza Di Mario;20;8;oui;non;—;2019;20;0;0;<center> | non responsive;—
+le-bistrot-des-jardins.fr;Le Bistrot des Jardins;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+pastapazza.fr;Pasta Pazza;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+pizzaliz.fr;Pizzaliz;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+restaurant-petit-baigneur.fr;Le Petit Baigneur;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+berberhygge.fr;BerbèrHygge;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+steinwasen.free.fr;Auberge du Steinwasen;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+malaterre.fr;Auberge de Malaterre;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+lapizz-bordeaux.fr;La Pizz;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+permayou.haut-bearn.fr;Le Permayou;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+oustaldemontibel.free.fr;L'Oustal de Montibel;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+alfreddemareil.fr;Alfred;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+restaurant-lebercail.fr;Le Bercail;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+lanetetu.fr;L'Âne Têtu;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+lepetitgraindesel.fr;Le petit grain de sel;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+tourisme.excenevex.fr;La Ginguette de la Plage;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+crous-versailles.fr;Restaurant universitaire;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+lafermebertrand.fr;ferme Bertrand;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+sushithidaily.fr;Thi Daily Coffret du gourmet;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+relaisdelaloire.fr;Relais de la Loire;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+lalanterna-lons.fr;La Lanterna;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+nikko-lyon.fr;Nikko;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+restaurant-larchestrate.fr;L'Archestrate;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+restaurant-michel-13.fr;Chez Michel;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+letoiledargent.fr;L'Étoile d'Argent;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+moncommerce35.fr;La Cour du Temple;20;5;oui;oui;—;—;20;0;0;sans doctype | non responsive;—
+camardiere.free.fr;Ferme de la Camardière;19;7;oui;oui;—;1999;19;0;0;doctype ancien | non responsive;—
+pierre.seve.free.fr;L'Épicerie;19;7;oui;oui;—;2020;19;0;0;doctype ancien | non responsive;—
+sakurasan.fr;Sakura san;19;7;oui;oui;—;1999;19;0;0;doctype ancien | non responsive;—
+chezpippo.fr;Chez Pippo;19;5;oui;oui;—;—;19;0;0;doctype ancien | non responsive;—
+aux3gourmandsduchateau.fr;Aux 3 Gourmands du Château;19;5;oui;non;—;1999;19;0;0;doctype ancien | non responsive;—
+lemouflon-laplagne.fr;Le Mouflon;19;5;oui;oui;—;—;19;0;0;doctype ancien | non responsive;—
+rusidda.fr;Rusidda;19;5;oui;oui;—;—;19;0;0;doctype ancien | non responsive;—
+legrainderiz.free.fr;Le grain de riz;19;5;oui;oui;—;—;19;0;0;doctype ancien | non responsive;—
+hotellarenaissance.fr;La Renaissance Saint-Ferréol;19;5;oui;non;—;1999;19;0;0;doctype ancien | non responsive;—
+fleursdethym.fr;Fleurs de Thym;18;5;oui;non;—;1999;15;3;0;non responsive;pas de variables CSS
+closducher.fr;Côté Jardin;18;5;non;non;joomla! - open source content management;2017;3;3;12;images .gif | Joomla;pas de variables CSS
+sidon.libanais-tours.fr;Ô Sidon;18;5;non;non;joomla! - open source content management;2017;3;3;12;images .gif | Joomla;pas de variables CSS
+relaisdugois.com;Le Relais du Gois;18;7;oui;oui;—;2018;15;3;0;non responsive;pas de variables CSS
+albatros-10.com;L'Albatros;18;7;oui;oui;—;1999;15;3;0;non responsive;aucun radius/ombre
+etcikitchen.com;Etci Kitchen;17;8;non;oui;joomla! - open source content management;2023;5;0;12;<center> | Joomla;—
+bagatellelerestaurant.fr;Les Jardins de Bagatelle;16;8;non;non;wordpress 4.9.30;2020;5;3;8;<center> | WordPress 4;pas de variables CSS
+loubistrot.fr;Lou Bistrot;15;7;oui;oui;—;2015;15;0;0;non responsive;—
+baraiode.fr;Bar à Iode - Charonne;15;7;oui;oui;—;2017;15;0;0;non responsive;—
+airedesverites-montlucon.fr;Aire des Vérités;15;5;oui;non;—;2021;15;0;0;non responsive;—
+lesterrassesdulac.fr;Les Terrasses du Lac;15;5;oui;oui;—;—;15;0;0;non responsive;—
+relais-des-vieilles-postes.fr;Le Relais des Vieilles Postes;15;5;oui;oui;—;—;15;0;0;non responsive;—
+cote-piste.fr;Côté piste;15;5;oui;non;"elementor 3.31.3; features: additional_custom_breakpoints, e";2018;15;0;0;non responsive;—
+restaurant-harmonie.fr;L'Harmonie;15;5;oui;oui;—;—;15;0;0;non responsive;—
+osakasushi78.fr;Osaka;15;5;oui;oui;—;—;15;0;0;non responsive;—
+restaurantshanghai.free.fr;Restaurant Shanghai;15;5;oui;oui;—;—;15;0;0;non responsive;—
+akamisushi.fr;Akami Sushi;15;5;oui;oui;—;—;15;0;0;non responsive;—
+alapart.fr;À La Part;15;5;oui;non;—;2021;15;0;0;non responsive;—
+asmorfia.fr;à Smorfia;15;5;oui;oui;—;2022;15;0;0;non responsive;—
+leclosdelecuyer.fr;Le Clos de l'Écuyer;15;5;oui;oui;—;2025;15;0;0;non responsive;—
+restaurantmarcel.fr;Marcel;15;5;oui;oui;—;—;15;0;0;non responsive;—
+tienhang.tien-hiang.fr;Tien Hiang;15;5;oui;non;—;2020;15;0;0;non responsive;—
+restaurant-lepanoramic.fr;Le Panoramic;15;5;oui;non;—;2016;15;0;0;non responsive;—
+schwartzsdeli.fr;Schwartz's Deli;15;5;oui;non;—;2009;15;0;0;non responsive;—
+lecabanon-arcachon.fr;Le Cabanon;15;5;oui;oui;—;—;15;0;0;non responsive;—
+agrology.fr;Agrology;15;5;oui;non;—;1999;15;0;0;non responsive;—
+anatolie-durum.fr;Anatolie Dürüm;14;10;non;oui;wordpress 5.4.20;2020;10;0;4;balises <font> (1) | WordPress 5;—
+restaurant-la-plume.fr;La Plume;14;6;non;non;wordpress 5.9.15;2051;10;0;4;balises <font> (1) | WordPress 5;—
+restaurant-orchidee-07.fr;L'Orchidée;13;5;non;non;—;2021;10;3;0;balises <font> (13);pas de variables CSS
+restaurantle1200.fr;Le 1200;12;5;non;non;joomla! - open source content management;2021;0;0;12;Joomla;—
+camping-laperle.fr;La Perle;12;5;non;non;joomla! - open source content management;1990;0;0;12;Joomla;—
+rajmahal.fr;Raj Mahal;11;7;non;oui;wordpress 4.9.3;2017;0;3;8;WordPress 4;pas de variables CSS
+sushifirst.fr;Sushi First;10;5;non;non;—;2020;5;5;0;<center>;pas de flex/grid
+lepouillerot.fr;Le Pouillerot;10;5;non;non;wordpress 5.8.12;2021;3;3;4;images .gif | WordPress 5;pas de variables CSS
+superpizza91.fr;Super Pizza;10;5;non;non;—;2021;5;5;0;<center>;pas de flex/grid
+sushicreation.fr;Sushi Création;10;5;non;non;—;2020;10;0;0;balises <font> (1);—
+pizzashow.fr;Pizza Show Plus;10;5;non;non;—;2020;5;5;0;<center>;pas de flex/grid
+souber.fr;l'etaP;9;5;non;non;wordpress 5.9.15;2021;0;5;4;WordPress 5;pas de flex/grid
+phuket.cafelists.com;Phuket;9;8;non;non;wordpress 5.1;2019;5;0;4;<center> | WordPress 5;—
+restaurant-thezan.fr;La Carte Timbrée;8;5;non;non;wordpress 4.9.30;2018;0;0;8;WordPress 4;—
+pizzeriailsoleditalia.fr;Il Sole d'Italia;8;5;non;non;wordpress 4.7.34;2016;0;0;8;WordPress 4;—
+la-fourchette-de-leonie.fr;La Fourchette de Léonie;8;5;non;non;wordpress 5.7.2;2021;4;0;4;document.write | WordPress 5;—
+al-ritrovo.fr;Al Ritrovo;8;5;non;non;—;2000;5;3;0;<center>;pas de variables CSS
+les-frigos.fr;La cantine de l'aiguillage;8;5;non;non;wordpress 7.0.3;2021;5;3;0;<center>;pas de variables CSS
+lentre-mers.fr;L’entre-mers;5;5;non;non;—;2020;5;0;0;<center>;—
+lhuitredoc.fr;Les Jardins d’Oc;5;5;non;non;—;2021;5;0;0;<center>;—
+restaurantlapetiteardoise.fr;La Petite Ardoise;5;5;non;non;one.com web editor;2016;5;0;0;bgcolor=;—
+leverbalon.fr;Le Verbalon;4;5;non;non;wordpress 5.9.13;2019;0;0;4;WordPress 5;—
+ilpinocchio.fr;Il Pinocchio;4;5;non;non;wordpress 5.4.20;2019;0;0;4;WordPress 5;—
+albatros-restaurant.fr;L'Albatros;4;5;non;non;wordpress 5.8.3;2021;0;0;4;WordPress 5;—
+restaurant-iledor.fr;L'île d'or;4;5;non;non;wordpress 5.7.16;2021;0;0;4;WordPress 5;—
+odeslys-restaurant.fr;Ô dés lys;4;5;non;non;wordpress 5.4.20;2017;0;0;4;WordPress 5;—
+restaurant-chez-marguerite.fr;Marguerite;4;5;non;non;wordpress 5.5.19;2021;0;0;4;WordPress 5;—
+oishi11.fr;Oishi;4;5;non;non;wordpress 5.2.25;2013;0;0;4;WordPress 5;—
+manekineko76.fr;Maneki Neko;4;5;non;non;wordpress 5.3.22;2017;0;0;4;WordPress 5;—
+polo-auteuil.fr;Le Polo;0;5;oui;oui;—;—;0;0;0;—;—
+latabledesfrangins.fr;La table des frangins;0;5;oui;oui;—;—;0;0;0;—;—
+parcelles-paris.fr;Parcelles;0;5;oui;oui;—;—;0;0;0;—;—
+restaurant-lacantina-paris.fr;La Cantina;0;5;oui;oui;—;—;0;0;0;—;—
+restaurantauxcocottes.fr;Aux Cocottes;0;5;oui;oui;—;—;0;0;0;—;—
+lacreperieduroc.fr;La Crêperie du Roc;0;5;oui;oui;—;—;0;0;0;—;—
+restaurantlacitrouille.fr;La Citrouille;0;5;oui;oui;—;—;0;0;0;—;—
+restaurant-legalion.fr;Le Galion;0;5;oui;oui;—;—;0;0;0;—;—
+terrabaravins.fr;Terra bar à vins;0;5;oui;oui;—;—;0;0;0;—;—
+yolo-suresnes.fr;YOLO;0;5;oui;oui;—;—;0;0;0;—;—

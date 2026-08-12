@@ -1,0 +1,11 @@
+already 0 / todo 5880
+progress 600/5880 (geolocalises=145)
+progress 1200/5880 (geolocalises=255)
+progress 1800/5880 (geolocalises=323)
+progress 2400/5880 (geolocalises=443)
+progress 3000/5880 (geolocalises=515)
+progress 3600/5880 (geolocalises=559)
+progress 4200/5880 (geolocalises=639)
+progress 4800/5880 (geolocalises=700)
+progress 5400/5880 (geolocalises=750)
+DONE geolocalise=798
