@@ -13,6 +13,23 @@ TITLE_FOREIGN = [
 # hand-verified non-restaurants / foreign sites that the name+domain filter missed
 EXCLUDE_DOMAINS = {'viumolinsderei.com', 'agrology.fr'}
 
+# hand-verified: not a real prospect for a website redesign pitch
+#  - onataste.fr / lespetitescantines.org: third-party directory/network, the
+#    restaurant doesn't own or control the site
+#  - niepceparis.com: restaurant belongs to a 4-star hotel, not an independent
+#  - alcazar.fr / lerecamier.com: large, well-established venues, not the kind
+#    of small independent that this outreach targets
+#  - sushi-first.com / africanevasion94100.fr: second location of a chain
+#    already represented by another domain (sushifirst.fr / african-evasion-pontault.fr)
+NOT_QUALIFIED_DOMAINS_SUFFIXES = ('onataste.fr', 'lespetitescantines.org')
+NOT_QUALIFIED_DOMAINS = {
+    'niepceparis.com', 'alcazar.fr', 'lerecamier.com',
+    'sushi-first.com', 'africanevasion94100.fr',
+}
+
+def not_qualified(domain):
+    return domain in NOT_QUALIFIED_DOMAINS or domain.endswith(NOT_QUALIFIED_DOMAINS_SUFFIXES)
+
 # region-specific design floor (Normandie slightly relaxed to reach its quota)
 MIN_DESIGN = {'Normandie': 8}
 
@@ -50,10 +67,10 @@ def is_foreign(name, domain):
             return True
     return False
 
-design = json.load(open('design_target.json'))
-aging = {r['domain']: r for r in json.load(open('aging_scored.json'))}
+design = json.load(open('design_target.json', encoding='utf-8'))
+aging = {r['domain']: r for r in json.load(open('aging_scored.json', encoding='utf-8'))}
 info = {}
-for l in open('candidates.tsv'):
+for l in open('candidates.tsv', encoding='utf-8'):
     p = l.rstrip('\n').split('\t'); info[p[0]] = [x.strip() for x in p[1:]]
 
 def enrich(d):
@@ -78,6 +95,7 @@ allrows = [
     enrich(d) for d in design
     if design[d]['tourist'] >= 4 and design[d]['design_score'] >= MIN_DESIGN.get(design[d]['region'], 10)
     and not is_foreign(info.get(d, [''])[0], d)
+    and not not_qualified(d)
 ]
 
 # best-effort title check: drop sites whose homepage reveals a foreign market
