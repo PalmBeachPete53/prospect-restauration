@@ -172,7 +172,14 @@ done = {r['domain'] for r in out}
 
 live = json.load(open('live_v2.json', encoding='utf-8'))
 todo = [(d, url) for d, url, _status in live if d not in done]
-print(f'deja profile : {len(done)}, a profiler : {len(todo)}', flush=True)
+
+# Un site qui ne repond qu'en HTTP en 2026 n'a plus ete touche depuis des annees :
+# c'est le meilleur indice gratuit dont on dispose. On le profile en premier, pour
+# que les prospects les plus laids remontent des le debut du scan.
+todo.sort(key=lambda t: t[1].startswith('https://'))
+sans_https = sum(1 for _d, u in todo if not u.startswith('https://'))
+print(f'deja profile : {len(done)}, a profiler : {len(todo)} '
+      f'(dont {sans_https} sans HTTPS, traites en priorite)', flush=True)
 
 start = time.time()
 with cf.ThreadPoolExecutor(max_workers=20) as ex:
