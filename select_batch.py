@@ -79,6 +79,8 @@ for d, meta in info.items():
         continue
     if s['design'] < MIN_DESIGN:
         continue
+    if not meta['nom']:   # nom absent d'OSM : le titre de la page fait l'affaire
+        meta = {**meta, 'nom': (s.get('title') or '').split('|')[0].split('-')[0].strip()[:40]}
     pool.append({**meta, 'domaine': d, 'design': s['design'],
                  'anciennete': s['anciennete'],
                  'responsive': s.get('responsive', True),

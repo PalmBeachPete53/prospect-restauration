@@ -135,10 +135,17 @@ def main():
         json.dump({'results': results, 'counts': counts, 'pairs': sorted(seen_pairs)},
                   open(RAW, 'w', encoding='utf-8'), ensure_ascii=False)
 
+    # --niches a,b : ne traiter que ces niches (utile quand une seule manque
+    # de candidats et qu'il faut elargir aux villes restantes sans tout refaire)
+    voulues = set(NICHES)
+    if '--niches' in sys.argv:
+        voulues = set(sys.argv[sys.argv.index('--niches') + 1].split(','))
+        print(f'niches limitees a : {", ".join(sorted(voulues))}', flush=True)
+
     taches = [(city, dept, lat, lon, radius, niche, selectors)
               for city, dept, lat, lon, radius in CITIES
               for niche, (_label, selectors) in NICHES.items()
-              if (city, niche) not in seen_pairs]
+              if niche in voulues and (city, niche) not in seen_pairs]
     total = len(taches)
     print(f'{total} couples a traiter sur {len(CITIES) * len(NICHES)}', flush=True)
 
