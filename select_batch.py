@@ -18,10 +18,14 @@ import csv, json, os, re, sys, unicodedata
 from config_prospect import NICHES, BATCH_SIZE, MAX_ETABLISSEMENTS, not_qualified
 
 DELIVERED = 'delivered.json'
-MIN_DESIGN = 10          # en dessous, le site n'est pas assez date pour l'argumentaire
+# Plancher de laideur. 10 = simplement date ; 25+ = visuellement indefendable.
+# Reglable : python select_batch.py --min-design 30
+MIN_DESIGN = 25
 V1_DELIVERABLES = ('restaurants_tourisme_top40.csv', 'restaurants_tourisme_next20.csv')
 
 dry_run = '--dry-run' in sys.argv
+if '--min-design' in sys.argv:
+    MIN_DESIGN = int(sys.argv[sys.argv.index('--min-design') + 1])
 
 
 def norm(s):
