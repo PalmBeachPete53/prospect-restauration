@@ -1,36 +1,36 @@
-domaine;nom;niche;ville;dept;design;anciennete;non_responsif;sans_https;techno;signaux_design
-celo-gaz.com;Celo gaz;Artisanat & BTP;Paris;75;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
-atelier-delaunay.fr;Atelier Delaunay;Artisanat & BTP;Le Havre;76;41;8;oui;oui;—;layout en tableaux (25) | bgcolor= | doctype ancien | non responsive | <br> en masse
-h4b.fr;Henri De Quatres Barbes;Artisanat & BTP;Paris;75;39;3;oui;non;—;doctype ancien | non responsive | images .gif | pas de @media | pas de variables CSS
-begrand.fr;Entreprise Begrand;Artisanat & BTP;Paris;75;33;6;oui;non;—;balises <font> (3) | doctype ancien | non responsive | document.write
-brunelli.fr;Brunelli;Artisanat & BTP;Nancy;54;29;8;oui;oui;—;frameset | doctype ancien | non responsive
-alazard-sas.com;Alazard;Artisanat & BTP;Paris;75;29;3;oui;non;—;non responsive | pas de @media
-auxsecretsdubien-etre.com;Aux secrets du bien-être;Beaute & Bien-etre;Nantes;44;56;6;oui;non;—;balises <font> (19) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
-bc-coiffure-oullins.fr;BC Coiffure;Beaute & Bien-etre;Lyon;69;56;6;oui;non;—;balises <font> (48) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
-bzenthaiparis.com;B Zen Spa;Beaute & Bien-etre;Paris;75;56;6;oui;non;—;balises <font> (2) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
-amazen-spa.fr;Amazen;Beaute & Bien-etre;Lyon;69;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
-carocoiff.site-solocal.com;Caro Coiff;Beaute & Bien-etre;Paris;75;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
-lavillasaintmarc.com;La Villa Saint-Marc;Beaute & Bien-etre;Rouen;76;42;3;oui;non;webacappella 4.6.18 free (win);doctype ancien | non responsive | document.write | pas de @media | pas de flex/grid
-leloupcoworking.fr;Le Loup;Beaute & Bien-etre;Paris;75;41;5;oui;oui;—;non responsive | pas de @media | px uniquement | pas de variables CSS | aucun radius/ombre
-bouilloncapitole.fr;Le Bouillon Capitole;Restauration;Toulouse;31;42;6;oui;non;—;<center> | non responsive | pas de @media | pas de flex/grid | pas de variables CSS
-surlepouce.libanais.free.fr;Sur le Pouce;Restauration;Paris;75;39;8;oui;oui;—;layout en tableaux (8) | bgcolor= | sans doctype | non responsive
-gindalle.fr;Gin Dalle;Restauration;Toulouse;31;39;6;oui;non;—;layout en tableaux (4) | bgcolor= | sans doctype | non responsive
-toulousefruitsdemer.fr;La Cabane;Restauration;Toulouse;31;38;8;oui;oui;wordpress 3.7.41;doctype ancien | non responsive | pas de @media | pas de flex/grid
-crocknpizz.fr;C'rock n'pizz;Restauration;Lyon;69;37;6;oui;non;—;layout en tableaux (95) | <center> | non responsive | <br> en masse
-bistrobest.fr;Bistro Best;Restauration;Paris;75;37;5;oui;oui;—;non responsive | document.write | pas de @media | police vintage
-by-s.fr;Le By S';Restauration;Lille;59;37;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | aucun radius/ombre
-batteries-energie.com;Atlantic Batteries;Automobile;Angers;49;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
-attelage-remorque-lyon.com;Attelage et remorque de Lyon;Automobile;Lyon;69;44;5;oui;oui;spip 3.1.3 [23214] - sarka-spip 3.4.6 [99617];non responsive | images .gif | document.write | pas de @media | pas de flex/grid | aucun radius/ombre
-monsieur-embrayage-35.com;Monsieur Embrayage;Automobile;Rennes;35;41;5;oui;non;website builder 12.0.7;doctype ancien | non responsive | pas de @media | pas de flex/grid | pas de variables CSS
-aap57.fr;Accueil Auto Pièces 57;Automobile;Metz;57;41;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | police vintage
-aden-44.fr;Aden;Automobile;Nantes;44;32;3;oui;non;wp rocket 3.23.1;non responsive | pas de @media | pas de variables CSS
-saone-auto.fr;Garage Renault;Automobile;Besancon;25;29;8;oui;oui;—;frameset | doctype ancien | non responsive
-berwald.fr;Neopart Fia Littoral;Automobile;Nimes;30;25;8;oui;oui;ort - ovh redirect technology;frameset | non responsive
-pressingleluxembourg.com;Le Luxembourg;Services de proximite;Paris;75;32;5;oui;oui;—;non responsive | pas de @media | pas de variables CSS
-autourducycle.fr;Autour du Cycle;Services de proximite;Paris;75;29;6;oui;non;—;balises <font> (11) | non responsive | police vintage
-alizes-pressing.fr;Alizée Naturellement Pressing;Services de proximite;Lille;59;28;0;non;non;—;pas de @media | pas de flex/grid | CSS tres court (506B) | aucun radius/ombre
-cycle-naturel.com;Cycle Naturel;Services de proximite;Paris;75;25;8;oui;oui;—;frameset | non responsive
-3dinfomac.com;3D Informatique;Services de proximite;Paris;75;25;6;oui;non;—;balises <font> (7) | non responsive
-lambert-licorni.fr;Lambert Licorni;Artisanat & BTP;Nancy;54;56;6;oui;non;—;balises <font> (16) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
-depuy.free.fr;SAV Depuy;Services de proximite;Paris;75;38;8;oui;oui;—;balises <font> (57) | bgcolor= | sans doctype | non responsive | images .gif
-cs2m.fr;CS2M - Cordonnerie Serrurerie;Services de proximite;Toulouse;31;34;5;oui;non;—;non responsive | pas de @media | pas de flex/grid
+domaine;nom;niche;ville;commune;dept;design;anciennete;non_responsif;sans_https;techno;signaux_design
+celo-gaz.com;Celo gaz;Artisanat & BTP;Paris;;75;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+atelier-delaunay.fr;Atelier Delaunay;Artisanat & BTP;Le Havre;;76;41;8;oui;oui;—;layout en tableaux (25) | bgcolor= | doctype ancien | non responsive | <br> en masse
+h4b.fr;Henri De Quatres Barbes;Artisanat & BTP;Paris;Boulogne Billancourt (92100);75;39;3;oui;non;—;doctype ancien | non responsive | images .gif | pas de @media | pas de variables CSS
+begrand.fr;Entreprise Begrand;Artisanat & BTP;Paris;;75;33;6;oui;non;—;balises <font> (3) | doctype ancien | non responsive | document.write
+brunelli.fr;Brunelli;Artisanat & BTP;Nancy;;54;29;8;oui;oui;—;frameset | doctype ancien | non responsive
+alazard-sas.com;Alazard;Artisanat & BTP;Paris;LENTREPRISE (94500);75;29;3;oui;non;—;non responsive | pas de @media
+auxsecretsdubien-etre.com;Aux secrets du bien-être;Beaute & Bien-etre;Nantes;;44;56;6;oui;non;—;balises <font> (19) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+bc-coiffure-oullins.fr;BC Coiffure;Beaute & Bien-etre;Lyon;;69;56;6;oui;non;—;balises <font> (48) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+bzenthaiparis.com;B Zen Spa;Beaute & Bien-etre;Paris;;75;56;6;oui;non;—;balises <font> (2) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+amazen-spa.fr;Amazen;Beaute & Bien-etre;Lyon;;69;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+carocoiff.site-solocal.com;Caro Coiff;Beaute & Bien-etre;Paris;;75;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+lavillasaintmarc.com;La Villa Saint-Marc;Beaute & Bien-etre;Rouen;;76;42;3;oui;non;webacappella 4.6.18 free (win);doctype ancien | non responsive | document.write | pas de @media | pas de flex/grid
+leloupcoworking.fr;Le Loup;Beaute & Bien-etre;Paris;;75;41;5;oui;oui;—;non responsive | pas de @media | px uniquement | pas de variables CSS | aucun radius/ombre
+bouilloncapitole.fr;Le Bouillon Capitole;Restauration;Toulouse;;31;42;6;oui;non;—;<center> | non responsive | pas de @media | pas de flex/grid | pas de variables CSS
+surlepouce.libanais.free.fr;Sur le Pouce;Restauration;Paris;;75;39;8;oui;oui;—;layout en tableaux (8) | bgcolor= | sans doctype | non responsive
+gindalle.fr;Gin Dalle;Restauration;Toulouse;;31;39;6;oui;non;—;layout en tableaux (4) | bgcolor= | sans doctype | non responsive
+toulousefruitsdemer.fr;La Cabane;Restauration;Toulouse;;31;38;8;oui;oui;wordpress 3.7.41;doctype ancien | non responsive | pas de @media | pas de flex/grid
+crocknpizz.fr;C'rock n'pizz;Restauration;Lyon;;69;37;6;oui;non;—;layout en tableaux (95) | <center> | non responsive | <br> en masse
+bistrobest.fr;Bistro Best;Restauration;Paris;Marly (78160);75;37;5;oui;oui;—;non responsive | document.write | pas de @media | police vintage
+by-s.fr;Le By S';Restauration;Lille;;59;37;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | aucun radius/ombre
+garage-massot-aussonne.fr;Garage Massot;Automobile;Toulouse;;31;56;6;oui;non;—;balises <font> (4) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+attelage-remorque-lyon.com;Attelage et remorque de Lyon;Automobile;Lyon;;69;44;5;oui;oui;spip 3.1.3 [23214] - sarka-spip 3.4.6 [99617];non responsive | images .gif | document.write | pas de @media | pas de flex/grid | aucun radius/ombre
+monsieur-embrayage-35.com;Monsieur Embrayage;Automobile;Rennes;;35;41;5;oui;non;website builder 12.0.7;doctype ancien | non responsive | pas de @media | pas de flex/grid | pas de variables CSS
+aap57.fr;Accueil Auto Pièces 57;Automobile;Metz;THAON (88150);57;41;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | police vintage
+aden-44.fr;Aden;Automobile;Nantes;;44;32;3;oui;non;wp rocket 3.23.1;non responsive | pas de @media | pas de variables CSS
+saone-auto.fr;Garage Renault;Automobile;Besancon;;25;29;8;oui;oui;—;frameset | doctype ancien | non responsive
+berwald.fr;Neopart Fia Littoral;Automobile;Nimes;;30;25;8;oui;oui;ort - ovh redirect technology;frameset | non responsive
+pressingleluxembourg.com;Le Luxembourg;Services de proximite;Paris;;75;32;5;oui;oui;—;non responsive | pas de @media | pas de variables CSS
+autourducycle.fr;Autour du Cycle;Services de proximite;Paris;La Varenne Saint Hilaire (94210);75;29;6;oui;non;—;balises <font> (11) | non responsive | police vintage
+floriansbikes.com;Florian's Bikes;Services de proximite;Toulouse;;31;32;5;oui;non;—;non responsive | pas de @media | pas de variables CSS
+cycle-naturel.com;Cycle Naturel;Services de proximite;Paris;;75;25;8;oui;oui;—;frameset | non responsive
+3dinfomac.com;3D Informatique;Services de proximite;Paris;;75;25;6;oui;non;—;balises <font> (7) | non responsive
+lambert-licorni.fr;Lambert Licorni;Artisanat & BTP;Nancy;;54;56;6;oui;non;—;balises <font> (16) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+depuy.free.fr;SAV Depuy;Services de proximite;Paris;Saint Brice sous Fort (95350);75;38;8;oui;oui;—;balises <font> (57) | bgcolor= | sans doctype | non responsive | images .gif
+cs2m.fr;CS2M - Cordonnerie Serrurerie;Services de proximite;Toulouse;;31;34;5;oui;non;—;non responsive | pas de @media | pas de flex/grid

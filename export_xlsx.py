@@ -26,7 +26,8 @@ PALIERS = [(50, 'FEE2E2', '991B1B'), (35, 'FEF3C7', '92400E'), (0, 'F3F4F6', '37
 COLONNES = [
     ('Site web',        34),
     ('Nom',             26),
-    ('Ville',           16),
+    ('Zone de recherche', 15),
+    ('Commune réelle',  24),
     ('Dép.',             6),
     ('Laideur',          9),
     ('Ancien.',          9),
@@ -60,7 +61,9 @@ def ecrire_feuille(ws, libelle, lignes):
 
     sous = ws.cell(row=2, column=1,
                    value='Classés du site le plus indéfendable au moins pire. '
-                         '« Laideur » = score de design daté ; « Ancien. » = signaux d\'abandon.')
+                         '« Laideur » = score de design daté ; « Ancien. » = signaux d\'abandon. '
+                         '« Zone » est le centre de recherche, pas l\'adresse : la commune réelle '
+                         'n\'est indiquée que lorsque le site l\'affiche.')
     sous.font = Font(name='Calibri', size=9, italic=True, color=GRIS)
     ws.merge_cells(start_row=2, start_column=1, end_row=2, end_column=len(COLONNES))
     ws.row_dimensions[2].height = 20
@@ -79,7 +82,7 @@ def ecrire_feuille(ws, libelle, lignes):
         ligne = 4 + n
         zebre = PatternFill('solid', fgColor=ZEBRE) if n % 2 else None
         valeurs = [
-            r['domaine'], r['nom'], r['ville'], r['dept'],
+            r['domaine'], r['nom'], r['ville'], r.get('commune', ''), r['dept'],
             int(r['design']), int(r['anciennete']),
             'non' if r['non_responsif'] == 'oui' else 'oui',
             'non' if r['sans_https'] == 'oui' else 'oui',
@@ -100,26 +103,34 @@ def ecrire_feuille(ws, libelle, lignes):
 
         # score de laideur mis en avant
         fond, texte = palier(int(r['design']))
-        sc = ws.cell(row=ligne, column=5)
+        sc = ws.cell(row=ligne, column=6)
         sc.fill = PatternFill('solid', fgColor=fond)
         sc.font = Font(name='Calibri', size=11, bold=True, color=texte)
         sc.alignment = Alignment(horizontal='center', vertical='center')
 
-        anc = ws.cell(row=ligne, column=6)
+        anc = ws.cell(row=ligne, column=7)
         anc.alignment = Alignment(horizontal='center', vertical='center')
 
         # non responsive / pas de HTTPS : c'est l'argument de vente
-        for col in (7, 8):
+        for col in (8, 9):
             c = ws.cell(row=ligne, column=col)
             c.alignment = Alignment(horizontal='center', vertical='center')
             c.font = Font(name='Calibri', size=10, bold=c.value == 'non',
                           color=ROUGE if c.value == 'non' else VERT)
 
-        ws.cell(row=ligne, column=3).alignment = Alignment(horizontal='left', vertical='center')
-        ws.cell(row=ligne, column=4).alignment = Alignment(horizontal='center', vertical='center')
-        ws.cell(row=ligne, column=9).font = Font(name='Calibri', size=9, color=GRIS)
+        # zone de recherche : ce n'est pas l'adresse, on la met en retrait
+        zone = ws.cell(row=ligne, column=3)
+        zone.alignment = Alignment(horizontal='left', vertical='center')
+        zone.font = Font(name='Calibri', size=9, color=GRIS)
+        # commune reelle : vide tant qu'elle n'a pas ete lue sur le site
+        com = ws.cell(row=ligne, column=4)
+        com.alignment = Alignment(horizontal='left', vertical='center')
+        com.font = Font(name='Calibri', size=10, bold=bool(com.value), color=ENCRE)
+
+        ws.cell(row=ligne, column=5).alignment = Alignment(horizontal='center', vertical='center')
         ws.cell(row=ligne, column=10).font = Font(name='Calibri', size=9, color=GRIS)
-        ws.cell(row=ligne, column=10).alignment = Alignment(vertical='center', wrap_text=True)
+        ws.cell(row=ligne, column=11).font = Font(name='Calibri', size=9, color=GRIS)
+        ws.cell(row=ligne, column=11).alignment = Alignment(vertical='center', wrap_text=True)
         ws.row_dimensions[ligne].height = 30
 
     ws.freeze_panes = 'A4'

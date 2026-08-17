@@ -134,6 +134,12 @@ NOT_QUALIFIED_DOMAINS = {
 # Le comptage d'etablissements par domaine en attrape la plupart tout seul ;
 # cette liste couvre celles qui n'apparaissent qu'une ou deux fois.
 CHAIN_DOMAINS = (
+    # Groupes reperes en relisant les sites : leurs points de vente ne sont pas
+    # tous dans OSM, le comptage d'etablissements ne les voyait donc pas.
+    'api-france.com',              # reseau de distribution en franchise
+    'attitudecoiffure-studiom.fr', # 9 salons sur 3 departements (holding)
+    'batteries-energie.com',       # 7 agences
+    'alizes-pressing.fr',          # 19 pressings, 3 regions
     # automobile
     'midas.fr', 'norauto.fr', 'feuvert.fr', 'speedy.fr', 'euromaster.',
     'roady.fr', 'vulco.com', 'point-s.fr', 'adaparts.', 'renault.fr',
