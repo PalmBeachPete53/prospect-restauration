@@ -7,7 +7,8 @@ englobe la commune et sa premiere couronne. Sortie : candidates_v2.tsv
 Reprise possible : le fichier _raw_v2.json est relu au demarrage, les couples
 deja traites sont sautes.
 """
-import urllib.request, urllib.parse, urllib.error, json, time, re, os, sys
+import urllib.request, urllib.parse, urllib.error, json, time, re, os, sys, threading, itertools
+import concurrent.futures as cf
 
 from config_prospect import CITIES, NICHES, OVERPASS_UA, is_directory
 
@@ -20,16 +21,20 @@ RAW = '_raw_v2.json'
 OUT = 'candidates_v2.tsv'
 
 
+SERVER_TIMEOUT = 90     # au dela, mieux vaut decouper que d'attendre
+
+
 def build_query(selectors, lat, lon, radius):
     parts = []
     for k, v in selectors:
         for w in ('website', 'contact:website'):
             parts.append(f'nwr["{k}"="{v}"]["{w}"](around:{radius},{lat},{lon});')
-    return '[out:json][timeout:180];(' + ''.join(parts) + ');out tags;'
+    return (f'[out:json][timeout:{SERVER_TIMEOUT}];('
+            + ''.join(parts) + ');out tags;')
 
 
 HEADERS = {'User-Agent': OVERPASS_UA, 'Accept': 'application/json'}
-_ep_index = [0]
+_ep_index = itertools.count()
 
 
 def fetch(query, tours=4):
@@ -37,16 +42,27 @@ def fetch(query, tours=4):
 
     429 = quota : il faut vraiment attendre, pas reessayer tout de suite.
     504 = requete trop lourde pour le serveur : l'appelant la decoupera.
+
+    Piege : quand SA propre limite de temps expire, Overpass repond HTTP 200
+    avec un JSON vide portant un champ "remark". Pris pour un succes, ca fait
+    disparaitre silencieusement tous les resultats de la requete.
     """
     data = urllib.parse.urlencode({'data': query}).encode()
     for tour in range(tours):
-        ep = ENDPOINTS[_ep_index[0] % len(ENDPOINTS)]
-        _ep_index[0] += 1
+        ep = ENDPOINTS[next(_ep_index) % len(ENDPOINTS)]
         court = ep.split('//')[1].split('/')[0]
         try:
             req = urllib.request.Request(ep, data=data, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=180) as r:
-                return json.load(r)
+            with urllib.request.urlopen(req, timeout=SERVER_TIMEOUT + 20) as r:
+                payload = json.load(r)
+            remarque = payload.get('remark', '')
+            if remarque:
+                print(f'    ! {court}: remark "{remarque[:60]}"', flush=True)
+                if tour >= 1:
+                    return None      # a decouper, ce n'est pas un vrai vide
+                time.sleep(3)
+                continue
+            return payload
         except urllib.error.HTTPError as e:
             print(f'    ! {court}: HTTP {e.code}', flush=True)
             if e.code == 429:
@@ -119,17 +135,25 @@ def main():
         json.dump({'results': results, 'counts': counts, 'pairs': sorted(seen_pairs)},
                   open(RAW, 'w', encoding='utf-8'), ensure_ascii=False)
 
-    total_pairs = len(CITIES) * len(NICHES)
-    done = 0
-    for city, dept, lat, lon, radius in CITIES:
-        for niche, (label, selectors) in NICHES.items():
-            done += 1
-            if (city, niche) in seen_pairs:
-                continue
-            elements, ok = fetch_selectors(selectors, lat, lon, radius)
+    taches = [(city, dept, lat, lon, radius, niche, selectors)
+              for city, dept, lat, lon, radius in CITIES
+              for niche, (_label, selectors) in NICHES.items()
+              if (city, niche) not in seen_pairs]
+    total = len(taches)
+    print(f'{total} couples a traiter sur {len(CITIES) * len(NICHES)}', flush=True)
+
+    verrou = threading.Lock()
+    avance = [0]
+
+    def traiter(t):
+        city, dept, lat, lon, radius, niche, selectors = t
+        elements, ok = fetch_selectors(selectors, lat, lon, radius)
+        with verrou:
+            avance[0] += 1
+            n = avance[0]
             if not ok:
-                print(f'[{done}/{total_pairs}] {city} / {niche}: ECHEC', flush=True)
-                continue
+                print(f'[{n}/{total}] {city} / {niche}: ECHEC', flush=True)
+                return
             added = 0
             for e in elements:
                 tags = e.get('tags', {})
@@ -140,14 +164,19 @@ def main():
                 counts[dom] = counts.get(dom, 0) + 1
                 if dom in results:
                     continue
-                name = (tags.get('name') or '').strip()
-                results[dom] = [name, niche, city, str(dept), raw.strip()]
+                results[dom] = [(tags.get('name') or '').strip(), niche, city,
+                                str(dept), raw.strip()]
                 added += 1
             seen_pairs.add((city, niche))
-            print(f'[{done}/{total_pairs}] {city} / {niche}: +{added} '
-                  f'(total={len(results)})', flush=True)
-            save()
-            time.sleep(2)   # on laisse respirer l'API publique
+            print(f'[{n}/{total}] {city} / {niche}: +{added} (total={len(results)})',
+                  flush=True)
+            if n % 5 == 0:
+                save()
+
+    # Un fil par serveur Overpass : chacun ne voit qu'une connexion a la fois,
+    # ce qui reste dans les usages de l'API publique tout en allant 3x plus vite.
+    with cf.ThreadPoolExecutor(max_workers=len(ENDPOINTS)) as ex:
+        list(ex.map(traiter, taches))
 
     save()
 
