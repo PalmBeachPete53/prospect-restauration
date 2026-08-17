@@ -117,6 +117,8 @@ SOCIAL_AND_DIRECTORY = (
     'doctolib.fr', 'lafourchette.com', 'onataste.fr', 'petitscommerces.fr',
     'leboncoin.fr', 'houzz.fr', 'travaux.com', 'quotatis.fr', 'starofservice.com',
     'allogarage.fr', 'vroomly.com', 'idgarages.com', 'lespetitescantines.org',
+    # plateformes croisees au lot 2 : le pro y est reference, il n'y a pas la main
+    'touchnpay.fr', 'demosphere.net', 'demosphere.eu',
 )
 
 # Lecons de la premiere campagne : ce qui n'est pas un prospect qualifie.

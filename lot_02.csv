@@ -31,3 +31,6 @@ autourducycle.fr;Autour du Cycle;Services de proximite;Paris;75;29;6;oui;non;—
 alizes-pressing.fr;Alizée Naturellement Pressing;Services de proximite;Lille;59;28;0;non;non;—;pas de @media | pas de flex/grid | CSS tres court (506B) | aucun radius/ombre
 cycle-naturel.com;Cycle Naturel;Services de proximite;Paris;75;25;8;oui;oui;—;frameset | non responsive
 3dinfomac.com;3D Informatique;Services de proximite;Paris;75;25;6;oui;non;—;balises <font> (7) | non responsive
+lambert-licorni.fr;Lambert Licorni;Artisanat & BTP;Nancy;54;56;6;oui;non;—;balises <font> (16) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+depuy.free.fr;SAV Depuy;Services de proximite;Paris;75;38;8;oui;oui;—;balises <font> (57) | bgcolor= | sans doctype | non responsive | images .gif
+cs2m.fr;CS2M - Cordonnerie Serrurerie;Services de proximite;Toulouse;31;34;5;oui;non;—;non responsive | pas de @media | pas de flex/grid
