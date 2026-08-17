@@ -1,7 +1,75 @@
-# prospect-restaurateurs
+# prospect-locaux
 
-Prospection de **restaurants français dotés d'un site web ancien** (à refondre).
-Réplique du pipeline utilisé dans `project-avocats`, appliqué au secteur de la restauration.
+Prospection de **commerces et artisans français dotés d'un site web daté** (à refondre).
+
+---
+
+# Campagne v2 — en cours
+
+**Champ de recherche** : les 50 plus grosses villes de France et leur banlieue
+extra-muros la plus proche. Un rayon autour de chaque centre-ville englobe la
+commune et sa première couronne (Paris 25 km, Lyon/Marseille/Lille 18 km,
+métropoles 12-15 km).
+
+**Méthode** : livraison **7 par 7, 7 par niche** — soit 35 prospects à chaque
+passage. Les prospects déjà livrés sont mémorisés dans `delivered.json` et ne
+ressortent jamais, y compris les 60 restaurants de la campagne v1.
+
+**Niches** (5) :
+
+| clé | niche | ce qu'on cherche |
+|---|---|---|
+| `artisanat_btp` | Artisanat & BTP | plombiers, électriciens, couvreurs, jardiniers, paysagistes, constructeurs |
+| `beaute_bienetre` | Beauté & Bien-être | coiffeurs, instituts d'esthétique, ongleries, centres de bien-être |
+| `restauration` | Restauration | restaurants de centre-ville, food-trucks |
+| `automobile` | Automobile | garages indépendants, mécaniciens, detailing |
+| `services_proximite` | Services de proximité | nettoyage, réparation (dont vélo en itinérance) |
+
+## Pipeline v2
+
+| étape | script | sortie |
+|---|---|---|
+| 1 | `extract_prospects.py` | `candidates_v2.tsv` — Overpass, une requête par (ville × niche) |
+| 2 | `check_live_v2.py` | `live_v2.json` — sites qui répondent |
+| 3 | `scan_sites_v2.py` | `sites_v2.json` — score design + ancienneté en un seul fetch |
+| 4 | `select_batch.py` | `lot_NN.csv` — les 7 suivants par niche |
+
+Configuration commune dans `config_prospect.py` (villes, niches, filtres, taille de lot).
+
+```bash
+python extract_prospects.py && python check_live_v2.py && python scan_sites_v2.py
+python select_batch.py            # livre le lot suivant
+python select_batch.py --dry-run  # aperçu sans marquer comme livré
+```
+
+Les étapes 1 à 3 reprennent où elles se sont arrêtées si on les relance.
+Seule l'étape 4 est à rejouer pour obtenir le lot suivant.
+
+## Ce qui est écarté automatiquement
+
+Les leçons de la campagne v1 sont codées dans les filtres :
+
+- **sites tiers** — annuaires, plateformes et réseaux sociaux (Pages Jaunes,
+  Planity, Doctolib, UberEats, OnaTaste…) : le pro n'a pas la main dessus ;
+- **chaînes et franchises** — détectées automatiquement quand un même domaine
+  porte 3 établissements ou plus (`nb_etablissements`), plus une liste des
+  enseignes connues (Midas, Franck Provost, McDonald's, concessionnaires…) ;
+- **doublons d'enseigne** — un même commerce présent sur deux domaines
+  (`sushifirst.fr` / `sushi-first.com`) ne compte qu'une fois, y compris quand
+  le premier domaine a déjà été livré lors d'un lot précédent ;
+- **sites trop récents** — score de design inférieur à 10 : pas d'argumentaire.
+
+Note technique : Overpass renvoie **HTTP 406** aux User-Agent qui imitent un
+navigateur. `OVERPASS_UA` est donc descriptif, alors que la visite des sites
+prospects utilise bien `BROWSER_UA`.
+
+---
+
+# Campagne v1 — restaurants (historique)
+
+Restaurants au site ancien dans 3 régions touristiques. 60 prospects livrés
+(`restaurants_tourisme_top40.csv` + `restaurants_tourisme_next20.csv`), repris
+comme déjà démarchés par la v2.
 
 ## Livrables principaux
 
