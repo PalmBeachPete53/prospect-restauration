@@ -7,14 +7,16 @@ Champ de recherche, en deux blocs :
     rendement s'effondrait. 20 km couvre la ville et sa banlieue, ce qui
     reste demarchable.
 
-  - le littoral : stations balneaires et ports de plaisance a fort pouvoir
-    d'achat, meme petits (Ramatuelle, Deauville, Saint-Martin-de-Re). Un
-    commerce y vit du tourisme et a de quoi payer un site. Les communes de
-    l'interieur peu denses sont hors sujet et n'y figurent pas.
+  - les zones attractives, dans un rayon de 4 km : littoral, stations de
+    montagne, villes d'eaux et hauts lieux touristiques. Ramatuelle, Megeve,
+    Deauville, Saint-Emilion. Un commerce y vit du tourisme ou d'une clientele
+    aisee, et a donc de quoi payer un site. Ces communes n'ont pas de banlieue :
+    au-dela de 4 km on ramasse la commune voisine sous une etiquette qui n'est
+    pas la sienne. Les communes peu denses de l'interieur n'y figurent pas.
 
-Les coordonnees du littoral viennent de geo.api.gouv.fr via fetch_littoral.py.
+Les coordonnees viennent de geo.api.gouv.fr via fetch_attractives.py.
 """
-from littoral_generated import LITTORAL
+from attractives_generated import ATTRACTIVES
 
 # (nom, departement, lat, lon, rayon en metres)
 GRANDES_VILLES = [
@@ -70,10 +72,10 @@ GRANDES_VILLES = [
     ('Bourges',            18, 47.0810,  2.3988, 20000),
 ]
 
-# Une commune du littoral peut deja figurer parmi les grandes villes
-# (La Rochelle, Brest, Dunkerque...) : on ne la compte qu'une fois.
+# Une commune attractive peut deja figurer parmi les grandes villes (Cannes,
+# Vannes, Dieppe...) : la grande ville l'emporte, avec son rayon de 20 km.
 _deja = {nom for nom, *_ in GRANDES_VILLES}
-CITIES = GRANDES_VILLES + [v for v in LITTORAL if v[0] not in _deja]
+CITIES = GRANDES_VILLES + [v for v in ATTRACTIVES if v[0] not in _deja]
 
 # niche -> (libelle, selecteurs OpenStreetMap)
 #
