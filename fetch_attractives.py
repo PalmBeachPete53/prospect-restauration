@@ -23,6 +23,11 @@ import concurrent.futures as cf
 
 RAYON = 4000
 
+# Plancher de population. Une station de 2 000 habitants a beau etre huppee,
+# son tissu commercial est trop mince pour alimenter une prospection reguliere.
+# 20 000 habitants ecarte les villages et garde les villes qui vivent a l'annee.
+POPULATION_MIN = 20000
+
 # (nom, code departement) - le departement leve l'ambiguite entre homonymes
 COMMUNES = [
     # ================= LITTORAL =================
@@ -196,6 +201,24 @@ COMMUNES = [
     ('Senlis', '60'), ('Giverny', '27'), ('Les Andelys', '27'),
     ('Saint-Paul-de-Vence', '06'), ('Mougins', '06'), ('Valbonne', '06'),
     ('Grasse', '06'), ('Biot', '06'),
+
+    # ===== VILLES DE ZONE ATTRACTIVE AU-DESSUS DU PLANCHER =====
+    # Ajoutees pour le volume : ce ne sont pas des stations, mais des villes
+    # cotieres ou de montagne qui vivent a l'annee et passent les 20 000 hab.
+    ('Calais', '62'), ('Boulogne-sur-Mer', '62'), ('Saint-Brieuc', '22'),
+    ('Lanester', '56'), ('Vannes', '56'), ('Saint-Nazaire', '44'),
+    ('La Roche-sur-Yon', '85'), ('Rochefort', '17'), ('Saintes', '17'),
+    ('Arles', '13'), ('Salon-de-Provence', '13'), ('Aubagne', '13'),
+    ('Draguignan', '83'), ('Antibes', '06'), ('Vence', '06'),
+    ('Carcassonne', '11'), ('Sète', '34'), ('Béziers', '34'),
+    ('Bayonne', '64'), ('Pau', '64'), ('Tarbes', '65'),
+    ('Albertville', '73'), ('Annemasse', '74'), ('Chambéry', '73'),
+    ('Voiron', '38'), ('Romans-sur-Isère', '26'), ('Montélimar', '26'),
+    ('Aix-les-Bains', '73'), ('Thonon-les-Bains', '74'), ('Gap', '05'),
+    ('Manosque', '04'), ('Vichy', '03'), ('Moulins', '03'),
+    ('Épinal', '88'), ('Saint-Dié-des-Vosges', '88'), ('Belfort', '90'),
+    ('Montbéliard', '25'), ('Lons-le-Saunier', '39'), ('Dole', '39'),
+    ('Cognac', '16'), ('Libourne', '33'), ('Arcachon', '33'),
 ]
 
 API = 'https://geo.api.gouv.fr/communes'
@@ -247,7 +270,11 @@ def main():
     for nom, dept, lat, lon, pop in ok:
         par_cle[(nom, dept)] = (lat, lon, pop)
 
-    print(f'{len(par_cle)} communes resolues, {len(rates)} echecs')
+    trop_petites = [(n, p) for (n, _d), (_la, _lo, p) in par_cle.items()
+                    if p < POPULATION_MIN]
+    par_cle = {k: v for k, v in par_cle.items() if v[2] >= POPULATION_MIN}
+    print(f'{len(par_cle)} communes retenues (>= {POPULATION_MIN} hab), '
+          f'{len(trop_petites)} sous le plancher, {len(rates)} echecs')
     with open('attractives_generated.py', 'w', encoding='utf-8') as f:
         f.write('# genere par fetch_attractives.py - coordonnees officielles\n')
         f.write(f'# rayon {RAYON} m : ces communes n\'ont pas de banlieue\n')
