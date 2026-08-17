@@ -1,66 +1,86 @@
 """Configuration partagee de la prospection v2 : villes ciblees, niches, filtres.
 
-Champ de recherche : les grosses villes de France et leur banlieue extra-muros
-la plus proche. Le rayon autour du centre-ville fait le travail : il englobe la
-commune et la premiere couronne (ex. Paris 25 km couvre la petite couronne,
-Lille 18 km couvre Roubaix/Tourcoing/Villeneuve-d'Ascq).
+Champ de recherche, en deux blocs :
+
+  - les grandes villes, dans un rayon de 7 km autour du centre. Au-dela on
+    ramassait des communes sans rapport - Thaon-les-Vosges rattache a Metz,
+    Nexon a Saint-Etienne. 7 km couvre la ville et sa banlieue collee, pas le
+    departement.
+
+  - le littoral : stations balneaires et ports de plaisance a fort pouvoir
+    d'achat, meme petits (Ramatuelle, Deauville, Saint-Martin-de-Re). Un
+    commerce y vit du tourisme et a de quoi payer un site. Les communes de
+    l'interieur peu denses sont hors sujet et n'y figurent pas.
+
+Les coordonnees du littoral viennent de geo.api.gouv.fr via fetch_littoral.py.
 """
+from littoral_generated import LITTORAL
 
 # (nom, departement, lat, lon, rayon en metres)
-CITIES = [
-    ('Paris',              75, 48.8566,  2.3522, 25000),
-    ('Lyon',               69, 45.7640,  4.8357, 18000),
-    ('Marseille',          13, 43.2965,  5.3698, 18000),
-    ('Lille',              59, 50.6292,  3.0573, 18000),
-    ('Toulouse',           31, 43.6047,  1.4442, 15000),
-    ('Bordeaux',           33, 44.8378, -0.5792, 15000),
-    ('Nantes',             44, 47.2184, -1.5536, 15000),
-    ('Nice',               6,  43.7102,  7.2620, 15000),
-    ('Strasbourg',         67, 48.5734,  7.7521, 15000),
-    ('Montpellier',        34, 43.6108,  3.8767, 15000),
-    ('Rennes',             35, 48.1173, -1.6778, 15000),
-    ('Grenoble',           38, 45.1885,  5.7245, 14000),
-    ('Rouen',              76, 49.4432,  1.0999, 14000),
-    ('Toulon',             83, 43.1242,  5.9280, 14000),
-    ('Saint-Etienne',      42, 45.4397,  4.3872, 13000),
-    ('Nancy',              54, 48.6921,  6.1844, 13000),
-    ('Tours',              37, 47.3941,  0.6848, 13000),
-    ('Clermont-Ferrand',   63, 45.7772,  3.0870, 13000),
-    ('Reims',              51, 49.2583,  4.0317, 12000),
-    ('Le Havre',           76, 49.4944,  0.1079, 12000),
-    ('Dijon',              21, 47.3220,  5.0415, 12000),
-    ('Angers',             49, 47.4784, -0.5632, 12000),
-    ('Nimes',              30, 43.8367,  4.3601, 12000),
-    ('Aix-en-Provence',    13, 43.5297,  5.4474, 12000),
-    ('Le Mans',            72, 48.0061,  0.1996, 12000),
-    ('Brest',              29, 48.3904, -4.4861, 12000),
-    ('Amiens',             80, 49.8941,  2.2958, 12000),
-    ('Limoges',            87, 45.8336,  1.2611, 12000),
-    ('Metz',               57, 49.1193,  6.1757, 12000),
-    ('Besancon',           25, 47.2378,  6.0241, 12000),
-    ('Orleans',            45, 47.9029,  1.9093, 12000),
-    ('Mulhouse',           68, 47.7508,  7.3359, 12000),
-    ('Caen',               14, 49.1829, -0.3707, 12000),
-    ('Perpignan',          66, 42.6887,  2.8948, 12000),
-    ('Avignon',            84, 43.9493,  4.8055, 12000),
-    ('Poitiers',           86, 46.5802,  0.3404, 12000),
-    ('Annecy',             74, 45.8992,  6.1294, 12000),
-    ('Pau',                64, 43.2951, -0.3708, 12000),
-    ('La Rochelle',        17, 46.1591, -1.1520, 12000),
-    ('Bayonne',            64, 43.4929, -1.4748, 12000),
-    ('Valence',            26, 44.9334,  4.8924, 12000),
-    ('Troyes',             10, 48.2973,  4.0744, 12000),
-    ('Lorient',            56, 47.7477, -3.3660, 12000),
-    ('Chambery',           73, 45.5646,  5.9178, 12000),
-    ('Colmar',             68, 48.0794,  7.3585, 12000),
-    ('Beziers',            34, 43.3440,  3.2159, 12000),
-    ('Quimper',            29, 47.9960, -4.1024, 12000),
-    ('Saint-Nazaire',      44, 47.2735, -2.2134, 12000),
-    ('Dunkerque',          59, 51.0344,  2.3768, 12000),
-    ('Bourges',            18, 47.0810,  2.3988, 12000),
+GRANDES_VILLES = [
+    ('Paris',              75, 48.8566,  2.3522, 7000),
+    ('Lyon',               69, 45.7640,  4.8357, 7000),
+    ('Marseille',          13, 43.2965,  5.3698, 7000),
+    ('Lille',              59, 50.6292,  3.0573, 7000),
+    ('Toulouse',           31, 43.6047,  1.4442, 7000),
+    ('Bordeaux',           33, 44.8378, -0.5792, 7000),
+    ('Nantes',             44, 47.2184, -1.5536, 7000),
+    ('Nice',               6,  43.7102,  7.2620, 7000),
+    ('Strasbourg',         67, 48.5734,  7.7521, 7000),
+    ('Montpellier',        34, 43.6108,  3.8767, 7000),
+    ('Rennes',             35, 48.1173, -1.6778, 7000),
+    ('Grenoble',           38, 45.1885,  5.7245, 7000),
+    ('Rouen',              76, 49.4432,  1.0999, 7000),
+    ('Toulon',             83, 43.1242,  5.9280, 7000),
+    ('Saint-Etienne',      42, 45.4397,  4.3872, 7000),
+    ('Nancy',              54, 48.6921,  6.1844, 7000),
+    ('Tours',              37, 47.3941,  0.6848, 7000),
+    ('Clermont-Ferrand',   63, 45.7772,  3.0870, 7000),
+    ('Reims',              51, 49.2583,  4.0317, 7000),
+    ('Le Havre',           76, 49.4944,  0.1079, 7000),
+    ('Dijon',              21, 47.3220,  5.0415, 7000),
+    ('Angers',             49, 47.4784, -0.5632, 7000),
+    ('Nimes',              30, 43.8367,  4.3601, 7000),
+    ('Aix-en-Provence',    13, 43.5297,  5.4474, 7000),
+    ('Le Mans',            72, 48.0061,  0.1996, 7000),
+    ('Brest',              29, 48.3904, -4.4861, 7000),
+    ('Amiens',             80, 49.8941,  2.2958, 7000),
+    ('Limoges',            87, 45.8336,  1.2611, 7000),
+    ('Metz',               57, 49.1193,  6.1757, 7000),
+    ('Besancon',           25, 47.2378,  6.0241, 7000),
+    ('Orleans',            45, 47.9029,  1.9093, 7000),
+    ('Mulhouse',           68, 47.7508,  7.3359, 7000),
+    ('Caen',               14, 49.1829, -0.3707, 7000),
+    ('Perpignan',          66, 42.6887,  2.8948, 7000),
+    ('Avignon',            84, 43.9493,  4.8055, 7000),
+    ('Poitiers',           86, 46.5802,  0.3404, 7000),
+    ('Annecy',             74, 45.8992,  6.1294, 7000),
+    ('Pau',                64, 43.2951, -0.3708, 7000),
+    ('La Rochelle',        17, 46.1591, -1.1520, 7000),
+    ('Bayonne',            64, 43.4929, -1.4748, 7000),
+    ('Valence',            26, 44.9334,  4.8924, 7000),
+    ('Troyes',             10, 48.2973,  4.0744, 7000),
+    ('Lorient',            56, 47.7477, -3.3660, 7000),
+    ('Chambery',           73, 45.5646,  5.9178, 7000),
+    ('Colmar',             68, 48.0794,  7.3585, 7000),
+    ('Beziers',            34, 43.3440,  3.2159, 7000),
+    ('Quimper',            29, 47.9960, -4.1024, 7000),
+    ('Saint-Nazaire',      44, 47.2735, -2.2134, 7000),
+    ('Dunkerque',          59, 51.0344,  2.3768, 7000),
+    ('Bourges',            18, 47.0810,  2.3988, 7000),
 ]
 
+# Une commune du littoral peut deja figurer parmi les grandes villes
+# (La Rochelle, Brest, Dunkerque...) : on ne la compte qu'une fois.
+_deja = {nom for nom, *_ in GRANDES_VILLES}
+CITIES = GRANDES_VILLES + [v for v in LITTORAL if v[0] not in _deja]
+
 # niche -> (libelle, selecteurs OpenStreetMap)
+#
+# Les selecteurs font le rendement : a 7 km de rayon, une niche etroite ne
+# ramene presque rien. La restauration se limitait a restaurant + fast_food,
+# ce qui laissait de cote les cafes, bars et brasseries - l'essentiel du
+# commerce d'une station balneaire.
 NICHES = {
     'artisanat_btp': (
         'Artisanat & BTP',
@@ -69,28 +89,51 @@ NICHES = {
          ('craft', 'hvac'), ('craft', 'painter'), ('craft', 'tiler'),
          ('craft', 'stonemason'), ('craft', 'window_construction'),
          ('craft', 'scaffolder'), ('craft', 'insulation'), ('craft', 'plasterer'),
-         ('craft', 'metal_construction'), ('craft', 'joiner')],
+         ('craft', 'metal_construction'), ('craft', 'joiner'),
+         ('craft', 'glaziery'), ('craft', 'floorer'), ('craft', 'chimney_sweeper'),
+         ('craft', 'parquet_layer'), ('craft', 'sun_protection'),
+         ('craft', 'handicraft'), ('craft', 'blacksmith'), ('craft', 'sawmiller'),
+         ('craft', 'pest_control'), ('craft', 'well_drilling'),
+         ('shop', 'doityourself'), ('shop', 'trade')],
     ),
     'beaute_bienetre': (
         'Beaute & Bien-etre',
         [('shop', 'hairdresser'), ('shop', 'beauty'), ('shop', 'massage'),
-         ('leisure', 'spa'), ('shop', 'nail_salon'), ('shop', 'herbalist')],
+         ('leisure', 'spa'), ('shop', 'nail_salon'), ('shop', 'herbalist'),
+         ('shop', 'cosmetics'), ('shop', 'perfumery'), ('shop', 'tattoo'),
+         ('shop', 'hairdresser_supply'), ('amenity', 'public_bath'),
+         ('leisure', 'sauna'), ('shop', 'optician')],
     ),
     'restauration': (
         'Restauration',
-        [('amenity', 'restaurant'), ('amenity', 'fast_food')],
+        [('amenity', 'restaurant'), ('amenity', 'fast_food'),
+         ('amenity', 'cafe'), ('amenity', 'bar'), ('amenity', 'pub'),
+         ('amenity', 'ice_cream'), ('amenity', 'biergarten'),
+         ('amenity', 'food_court'), ('shop', 'bakery'), ('shop', 'pastry'),
+         ('shop', 'butcher'), ('shop', 'seafood'), ('shop', 'deli'),
+         ('shop', 'confectionery'), ('shop', 'caterer'), ('craft', 'caterer'),
+         ('shop', 'wine'), ('shop', 'cheese')],
     ),
     'automobile': (
         'Automobile',
         [('shop', 'car_repair'), ('shop', 'tyres'), ('shop', 'car_parts'),
          ('amenity', 'car_wash'), ('shop', 'car_wash'),
-         ('shop', 'motorcycle_repair')],
+         ('shop', 'motorcycle_repair'), ('shop', 'car'), ('shop', 'motorcycle'),
+         ('shop', 'caravan'), ('shop', 'truck'), ('shop', 'boat'),
+         ('shop', 'motorcycle_parts'), ('amenity', 'vehicle_inspection'),
+         ('shop', 'agrarian')],
     ),
     'services_proximite': (
         'Services de proximite',
         [('shop', 'laundry'), ('shop', 'dry_cleaning'), ('craft', 'cleaning'),
          ('shop', 'bicycle'), ('craft', 'shoemaker'),
-         ('craft', 'electronics_repair'), ('shop', 'repair')],
+         ('craft', 'electronics_repair'), ('shop', 'repair'),
+         ('craft', 'tailor'), ('shop', 'tailor'), ('craft', 'locksmith'),
+         ('craft', 'key_cutter'), ('shop', 'copyshop'), ('craft', 'photographer'),
+         ('shop', 'photo'), ('craft', 'upholsterer'), ('shop', 'pet_grooming'),
+         ('shop', 'sewing'), ('craft', 'watchmaker'), ('shop', 'watches'),
+         ('shop', 'funeral_directors'), ('shop', 'travel_agency'),
+         ('shop', 'mobile_phone'), ('shop', 'computer')],
     ),
 }
 

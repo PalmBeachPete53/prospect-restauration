@@ -1,0 +1,8 @@
+900 couples a traiter sur 900
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[1/900] Paris / beaute_bienetre: +192 (total=192)
+[2/900] Paris / automobile: +8 (total=200)
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: The read operation timed out
+[3/900] Paris / artisanat_btp: +124 (total=324)

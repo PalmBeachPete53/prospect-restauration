@@ -25,10 +25,14 @@ SERVER_TIMEOUT = 90     # au dela, mieux vaut decouper que d'attendre
 
 
 def build_query(selectors, lat, lon, radius):
-    parts = []
-    for k, v in selectors:
-        for w in ('website', 'contact:website'):
-            parts.append(f'nwr["{k}"="{v}"]["{w}"](around:{radius},{lat},{lon});')
+    """Une clause par selecteur.
+
+    Les deux facons de taguer un site (website et contact:website) tiennent en
+    une regex de cle plutot qu'en deux clauses : a nombre de selecteurs egal,
+    la requete est deux fois plus legere, ce qui compte sur les zones denses.
+    """
+    parts = [f'nwr["{k}"="{v}"][~"^(website|contact:website)$"~"."]'
+             f'(around:{radius},{lat},{lon});' for k, v in selectors]
     return (f'[out:json][timeout:{SERVER_TIMEOUT}];('
             + ''.join(parts) + ');out tags;')
 
@@ -66,11 +70,13 @@ def fetch(query, tours=4):
         except urllib.error.HTTPError as e:
             print(f'    ! {court}: HTTP {e.code}', flush=True)
             if e.code == 429:
-                time.sleep(35)
+                time.sleep(35)   # quota : la seule reponse utile est d'attendre
             elif e.code in (504, 502, 503):
-                if tour >= 1:
-                    return None          # trop lourde : on decoupe en amont
-                time.sleep(5)
+                # Sur les instances publiques, un 504 traduit plus souvent une
+                # surcharge passagere qu'une requete trop lourde : la meme
+                # requete repart parfois en 30 s sur un autre serveur. On
+                # insiste donc avant de conclure au poids et de decouper.
+                time.sleep(6)
             else:
                 time.sleep(5)
         except Exception as exc:
@@ -79,12 +85,15 @@ def fetch(query, tours=4):
     return None
 
 
-def fetch_selectors(selectors, lat, lon, radius):
-    """Recupere les elements, en coupant le paquet de selecteurs si le serveur cale.
+# On part optimiste : dans une station balneaire, les 28 selecteurs de
+# l'artisanat passent en une requete. Sur Paris ou Lyon, le serveur refuse des
+# le deuxieme selecteur. Plutot que de fixer une taille qui serait absurde d'un
+# cote ou de l'autre, on tente large et on divise a chaque refus.
+TAILLE_PAQUET = 8
 
-    Une niche comme la restauration sur Paris depasse ce qu'Overpass accepte en
-    une fois : on redescend alors selecteur par selecteur.
-    """
+
+def _fetch_paquet(selectors, lat, lon, radius):
+    """Un paquet de selecteurs, avec division en deux si le serveur cale."""
     payload = fetch(build_query(selectors, lat, lon, radius))
     if payload is not None:
         return payload.get('elements', []), True
@@ -93,9 +102,27 @@ def fetch_selectors(selectors, lat, lon, radius):
         return [], False
     milieu = len(selectors) // 2
     print(f'    .. decoupage en {milieu} + {len(selectors) - milieu} selecteurs', flush=True)
-    gauche, ok_g = fetch_selectors(selectors[:milieu], lat, lon, radius)
-    droite, ok_d = fetch_selectors(selectors[milieu:], lat, lon, radius)
-    return gauche + droite, (ok_g or ok_d)
+    gauche, ok_g = _fetch_paquet(selectors[:milieu], lat, lon, radius)
+    droite, ok_d = _fetch_paquet(selectors[milieu:], lat, lon, radius)
+    # ET, pas OU : une moitie perdue rend le resultat incomplet. Avec un OU,
+    # une niche a moitie ramenee passait pour traitee et le cache gravait le
+    # trou - c'est ce qui donnait des "+0" sur Paris sans le moindre ECHEC.
+    return gauche + droite, (ok_g and ok_d)
+
+
+def fetch_selectors(selectors, lat, lon, radius):
+    """Recupere les elements d'une niche, par paquets de selecteurs.
+
+    Le couple n'est considere comme traite que si TOUS les paquets ont abouti :
+    sinon un paquet perdu ferait passer la niche pour depouillee, et le cache
+    de reprise graverait ce vide dans le marbre.
+    """
+    elements, complet = [], True
+    for i in range(0, len(selectors), TAILLE_PAQUET):
+        lot, ok = _fetch_paquet(selectors[i:i + TAILLE_PAQUET], lat, lon, radius)
+        elements += lot
+        complet = complet and ok
+    return elements, complet
 
 
 def normalize(url):
