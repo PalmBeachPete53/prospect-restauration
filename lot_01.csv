@@ -17,7 +17,7 @@ babacanteen.com;Baba canteen;Restauration;Toulouse;;31;60;6;oui;non;—;balises 
 chezmario.fr;Chez Mario;Restauration;Bordeaux;;33;58;5;oui;oui;—;layout en tableaux (4) | doctype ancien | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
 baan.fr;Baan Siam;Restauration;Toulouse;;31;57;6;oui;non;—;layout en tableaux (9) | balises <font> (32) | <center> | bgcolor= | sans doctype | non responsive | images .gif
 lechateausormiou.fr;Le Château Sormiou;Restauration;Marseille;;13;47;8;oui;oui;—;balises <font> (1) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS
-ldvdraveil.fr;La Dolce Vita;Restauration;Paris;Draveil (91210);75;47;6;oui;non;—;layout en tableaux (29) | balises <font> (4) | <center> | non responsive | <br> en masse
+resto.krutenau.free.fr;Winstub La Krutenau;Restauration;Colmar;Colmar (68000);68;79;8;oui;oui;—;layout en tableaux (23) | <marquee> | bgcolor= | doctype ancien | non responsive | images .gif | pas de @media | px uniquement | pas de flex/grid | pas de variables CSS | aucun radius/ombre
 chapitre6.fr;Chapitre VI;Restauration;Lille;;59;45;8;oui;oui;—;balises <font> (1) | bgcolor= | frameset | sans doctype | non responsive
 laovientiane.fr;Lao Vientiane;Restauration;Nice;;6;45;6;oui;non;—;<center> | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
 technicauto69.fr;Technic Auto;Automobile;Lyon;;69;82;10;oui;oui;—;layout en tableaux (5) | balises <font> (1) | doctype ancien | non responsive | gif de mise en page | images .gif | pas de @media | px uniquement | pas de flex/grid | pas de variables CSS | aucun radius/ombre
@@ -31,6 +31,6 @@ velocipaide.fr;Vélocipaide;Services de proximite;Paris;;75;60;6;oui;non;bueno 1
 cyclolivine.fr;Cyclolivine;Services de proximite;Grenoble;;38;49;8;oui;oui;—;<center> | doctype ancien | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
 rustine-beaulieu.weebly.com;La Rustine de Beaulieu;Services de proximite;Rennes;;35;49;3;non;non;—;layout en tableaux (4) | balises <font> (29) | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
 velosapiens.fr;Vélo-Sapiens;Services de proximite;Marseille;;13;45;6;oui;non;—;<center> | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
-laveriedebretagne.free.fr;Laverie de Montigny-le-Bretonneux;Services de proximite;Paris;Montigny-le-Bretonneux (78180);75;43;8;oui;oui;izispot 4.31 (www.izispot.com);layout en tableaux (5) | balises <font> (4) | doctype ancien | non responsive
+atelierdumenager.com;Atelier du ménager;Services de proximite;Poitiers;Poitiers (86000);86;56;6;oui;non;—;balises <font> (2) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
 jpcycles.sitego.fr;JP Cycles;Services de proximite;Paris;;75;37;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS
 archphoenix.team;ArchPhénix Team (Atelier de Paris);Services de proximite;Paris;;75;36;0;non;non;—;layout en tableaux (3) | pas de @media | pas de flex/grid | aucun radius/ombre

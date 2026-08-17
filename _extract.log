@@ -6,3 +6,251 @@
     ! overpass.kumi.systems: The read operation timed out
     ! overpass.kumi.systems: The read operation timed out
 [3/900] Paris / artisanat_btp: +124 (total=324)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[4/900] Paris / restauration: +410 (total=734)
+[5/900] Paris / services_proximite: +492 (total=1226)
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[6/900] Lyon / artisanat_btp: +37 (total=1263)
+    ! overpass.kumi.systems: HTTP 504
+[7/900] Lyon / automobile: +95 (total=1358)
+[8/900] Lyon / restauration: +1320 (total=2678)
+    ! overpass-api.de: HTTP 429
+[9/900] Lyon / beaute_bienetre: +245 (total=2923)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[10/900] Marseille / beaute_bienetre: +20 (total=2943)
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: The read operation timed out
+[11/900] Lyon / services_proximite: +42 (total=2985)
+[12/900] Marseille / artisanat_btp: +10 (total=2995)
+[13/900] Marseille / automobile: +25 (total=3020)
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[14/900] Lille / artisanat_btp: +19 (total=3039)
+[15/900] Lille / beaute_bienetre: +67 (total=3106)
+[16/900] Marseille / restauration: +300 (total=3406)
+[17/900] Marseille / services_proximite: +17 (total=3423)
+    ! overpass-api.de: HTTP 429
+[18/900] Lille / automobile: +63 (total=3486)
+[19/900] Lille / services_proximite: +74 (total=3560)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[20/900] Toulouse / artisanat_btp: +17 (total=3577)
+    ! overpass.kumi.systems: HTTP 504
+[21/900] Lille / restauration: +618 (total=4195)
+[22/900] Toulouse / beaute_bienetre: +43 (total=4238)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[23/900] Toulouse / restauration: +100 (total=4338)
+    ! overpass.kumi.systems: The read operation timed out
+[24/900] Bordeaux / artisanat_btp: +24 (total=4362)
+    ! overpass.kumi.systems: The read operation timed out
+[25/900] Toulouse / automobile: +3 (total=4365)
+[26/900] Toulouse / services_proximite: +95 (total=4460)
+[27/900] Bordeaux / automobile: +7 (total=4467)
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: The read operation timed out
+[28/900] Bordeaux / beaute_bienetre: +43 (total=4510)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[29/900] Bordeaux / restauration: +11 (total=4521)
+[30/900] Nantes / beaute_bienetre: +45 (total=4566)
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: HTTP 504
+[31/900] Bordeaux / services_proximite: +21 (total=4587)
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[32/900] Nantes / restauration: +15 (total=4602)
+    ! overpass.kumi.systems: HTTP 504
+[33/900] Nantes / services_proximite: +33 (total=4635)
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: The read operation timed out
+    .. decoupage en 2 + 2 selecteurs
+[34/900] Nantes / artisanat_btp: +31 (total=4666)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+    .. decoupage en 4 + 4 selecteurs
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[35/900] Nantes / automobile: +26 (total=4692)
+    ! overpass.kumi.systems: HTTP 504
+[36/900] Nice / artisanat_btp: +11 (total=4703)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[37/900] Nice / beaute_bienetre: +0 (total=4703)
+[38/900] Nice / automobile: +0 (total=4703)
+[39/900] Nice / services_proximite: +39 (total=4742)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 429
+[40/900] Nice / restauration: +70 (total=4812)
+    ! overpass-api.de: HTTP 504
+[41/900] Strasbourg / artisanat_btp: +4 (total=4816)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[42/900] Strasbourg / beaute_bienetre: +54 (total=4870)
+[43/900] Strasbourg / restauration: +93 (total=4963)
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[44/900] Strasbourg / services_proximite: +57 (total=5020)
+[45/900] Montpellier / beaute_bienetre: +54 (total=5074)
+    ! overpass.kumi.systems: HTTP 504
+[46/900] Montpellier / artisanat_btp: +2 (total=5076)
+    ! overpass-api.de: HTTP 429
+[47/900] Strasbourg / automobile: +1 (total=5077)
+[48/900] Montpellier / automobile: +5 (total=5082)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[49/900] Montpellier / restauration: +304 (total=5386)
+    ! overpass-api.de: HTTP 429
+[50/900] Rennes / beaute_bienetre: +79 (total=5465)
+    ! overpass-api.de: HTTP 504
+[51/900] Rennes / artisanat_btp: +54 (total=5519)
+[52/900] Rennes / restauration: +317 (total=5836)
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[53/900] Montpellier / services_proximite: +23 (total=5859)
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 429
+[54/900] Grenoble / artisanat_btp: +9 (total=5868)
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[55/900] Rennes / services_proximite: +59 (total=5927)
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[56/900] Rennes / automobile: +12 (total=5939)
+    ! overpass-api.de: HTTP 504
+[57/900] Grenoble / restauration: +261 (total=6200)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[58/900] Grenoble / beaute_bienetre: +43 (total=6243)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[59/900] Rouen / artisanat_btp: +21 (total=6264)
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+    .. decoupage en 4 + 4 selecteurs
+    ! overpass-api.de: HTTP 504
+[60/900] Grenoble / services_proximite: +0 (total=6264)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[61/900] Rouen / restauration: +240 (total=6504)
+    ! overpass.kumi.systems: The read operation timed out
+[62/900] Rouen / beaute_bienetre: +24 (total=6528)
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[63/900] Rouen / services_proximite: +0 (total=6528)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    .. decoupage en 2 + 2 selecteurs
+[64/900] Grenoble / automobile: +18 (total=6546)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[65/900] Rouen / automobile: +49 (total=6595)
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 504
+[66/900] Toulon / beaute_bienetre: +14 (total=6609)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[67/900] Toulon / restauration: +1 (total=6610)
+    ! overpass.kumi.systems: HTTP 504
+[68/900] Toulon / artisanat_btp: +4 (total=6614)
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[69/900] Toulon / automobile: +11 (total=6625)
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[70/900] Saint-Etienne / artisanat_btp: +5 (total=6630)
+[71/900] Saint-Etienne / beaute_bienetre: +14 (total=6644)
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 504
+[72/900] Toulon / services_proximite: +3 (total=6647)
+[73/900] Saint-Etienne / automobile: +41 (total=6688)
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[74/900] Saint-Etienne / restauration: +160 (total=6848)
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[75/900] Nancy / artisanat_btp: +9 (total=6857)
+    ! overpass.kumi.systems: The read operation timed out
+[76/900] Nancy / beaute_bienetre: +69 (total=6926)
+    ! overpass.kumi.systems: HTTP 504
+[77/900] Nancy / automobile: +53 (total=6979)
+    ! overpass-api.de: HTTP 504
+[78/900] Saint-Etienne / services_proximite: +7 (total=6986)
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[79/900] Nancy / services_proximite: +43 (total=7029)
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[80/900] Tours / beaute_bienetre: +66 (total=7095)
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[81/900] Tours / artisanat_btp: +14 (total=7109)
+    ! overpass.kumi.systems: HTTP 504
+[82/900] Tours / automobile: +40 (total=7149)
+    ! overpass.kumi.systems: The read operation timed out
+    .. decoupage en 4 + 4 selecteurs
+    ! overpass-api.de: HTTP 429
+[83/900] Tours / services_proximite: +53 (total=7202)
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[84/900] Tours / restauration: +36 (total=7238)
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[85/900] Clermont-Ferrand / artisanat_btp: +8 (total=7246)
+[86/900] Clermont-Ferrand / beaute_bienetre: +2 (total=7248)
+    ! overpass.kumi.systems: The read operation timed out
+[87/900] Clermont-Ferrand / automobile: +2 (total=7250)
+    ! overpass-api.de: HTTP 429
+[88/900] Nancy / restauration: +66 (total=7316)
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[89/900] Clermont-Ferrand / services_proximite: +0 (total=7316)
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[90/900] Clermont-Ferrand / restauration: +137 (total=7453)
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: HTTP 504
+[91/900] Reims / restauration: +151 (total=7604)
+    ! overpass.kumi.systems: The read operation timed out
+[92/900] Reims / artisanat_btp: +4 (total=7608)
