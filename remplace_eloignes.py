@@ -19,7 +19,10 @@ from config_prospect import (GRANDES_VILLES, NICHES, BROWSER_UA,
                              is_directory)
 
 DRY = '--dry-run' in sys.argv
-RAYON_MAX = 7.0          # km
+# Distance acceptable entre le prospect et le centre-ville annonce. 7 km etait
+# trop severe : une banlieue a 20 km reste un prospect valable, seuls les cas
+# aberrants genent (Thaon-les-Vosges rattache a Metz, a 97 km).
+RAYON_MAX = 21.0         # km
 CANDIDATS_PAR_TROU = 14  # profondeur d'exploration avant d'abandonner
 
 CENTRES = {n: (la, lo) for n, _d, la, lo, _r in GRANDES_VILLES}
