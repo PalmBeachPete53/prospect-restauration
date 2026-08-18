@@ -19,6 +19,10 @@ from config_prospect import (GRANDES_VILLES, NICHES, BROWSER_UA,
                              is_directory)
 
 DRY = '--dry-run' in sys.argv
+# Les lots deja remis a l'utilisateur ne se retouchent pas : on ne traite que
+# les fichiers nommes en argument.
+FICHIERS = [a for a in sys.argv[1:] if a.endswith('.csv')] or ['lot_01.csv', 'lot_02.csv']
+SOURCE_CANDIDATS = 'candidates_v2.tsv' 
 # Distance acceptable entre le prospect et le centre-ville annonce. 7 km etait
 # trop severe : une banlieue a 20 km reste un prospect valable, seuls les cas
 # aberrants genent (Thaon-les-Vosges rattache a Metz, a 97 km).
@@ -111,7 +115,7 @@ def evalue(arg):
 
 def main():
     info = {}
-    for l in open('candidates_25km.bak', encoding='utf-8').read().splitlines()[1:]:
+    for l in open(SOURCE_CANDIDATS, encoding='utf-8').read().splitlines()[1:]:
         p = l.split('\t')
         if len(p) >= 6:
             info[p[0]] = {'nom': p[1], 'niche': p[2], 'ville': p[3],
@@ -122,7 +126,7 @@ def main():
     livres = set(etat['domaines'])
 
     lots = {f: list(csv.DictReader(open(f, encoding='utf-8'), delimiter=';'))
-            for f in ('lot_01.csv', 'lot_02.csv')}
+            for f in FICHIERS}
     occupes = {r['domaine'] for v in lots.values() for r in v}
     noms_pris = {(norm(r['nom']), norm(r['ville'])) for v in lots.values() for r in v}
 
@@ -154,7 +158,7 @@ def main():
             if m['niche'] != niche or d in livres or d in occupes:
                 continue
             s = sites.get(d)
-            if not s or s.get('vide') or s['design'] < 25:
+            if not s or s.get('vide') or s['design'] < 15:
                 continue
             if not_qualified(d) or is_chain(d) or is_directory(d):
                 continue
