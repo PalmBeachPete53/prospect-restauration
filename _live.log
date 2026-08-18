@@ -1,1 +1,6 @@
-deja teste : 0, a tester : 16359
+deja vivants : 2295, a tester : 14064 (12 fils, 15s de delai)
+  passe 1 500/14064 vivants=227 (75s)
+  passe 1 1000/14064 vivants=611 (117s)
+  passe 1 1500/14064 vivants=992 (163s)
+  passe 1 2000/14064 vivants=1379 (210s)
+  passe 1 2500/14064 vivants=1777 (250s)
