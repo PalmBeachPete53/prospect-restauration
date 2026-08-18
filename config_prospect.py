@@ -173,6 +173,10 @@ SOCIAL_AND_DIRECTORY = (
 NOT_QUALIFIED_DOMAINS = {
     'niepceparis.com', 'alcazar.fr', 'lerecamier.com',
     'sushi-first.com', 'africanevasion94100.fr',
+    # OSM le place a Lyon, son adresse est a Paris 15e : 392 km d'ecart.
+    # Ecarte une premiere fois du lot 3, il etait revenu au lot 4 faute
+    # d'etre inscrit ici - un retrait doit etre definitif.
+    'max-poilane.fr',
 }
 
 # Chaines, franchises et constructeurs : le site est gere au niveau national.
@@ -185,6 +189,7 @@ CHAIN_DOMAINS = (
     'attitudecoiffure-studiom.fr', # 9 salons sur 3 departements (holding)
     'batteries-energie.com',       # 7 agences
     'alizes-pressing.fr',          # 19 pressings, 3 regions
+    'coiff1rst.com',               # groupe de salons parisiens
     # automobile
     'midas.fr', 'norauto.fr', 'feuvert.fr', 'speedy.fr', 'euromaster.',
     'roady.fr', 'vulco.com', 'point-s.fr', 'adaparts.', 'renault.fr',

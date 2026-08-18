@@ -204,8 +204,11 @@ def main():
         r['signaux_design'] = ' | '.join(s.get('signaux', [])) or '—'
         occupes.add(d)
         noms_pris.add((norm(m['nom']), norm(m['ville'])))
-        livres.discard(vieux)
+        # Le prospect ecarte reste marque comme sorti : le rendre au vivier le
+        # ferait ressortir au lot suivant avec le defaut qui l'avait fait
+        # retirer. C'est arrive a 'Poilane', retire du lot 3 et revenu au lot 4.
         livres.add(d)
+        print(f'    (a inscrire dans NOT_QUALIFIED_DOMAINS : {vieux})')
         print()
 
     if DRY:
