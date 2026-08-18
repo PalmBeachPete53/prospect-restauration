@@ -1,3 +1,774 @@
 460 couples (ville, cle) a traiter sur 460
 [1/460] Aix-les-Bains / craft: +0 (0 objets, total=0) ~4 min restantes
 [2/460] Agde / leisure: +0 (0 objets, total=0) ~2 min restantes
+[3/460] Aix-les-Bains / shop: +13 (51 objets, total=13) ~11 min restantes
+[4/460] Ajaccio / amenity: +0 (0 objets, total=13) ~9 min restantes
+    ! overpass-api.de: HTTP 429
+[5/460] Agde / amenity: +21 (60 objets, total=34) ~12 min restantes
+[6/460] Agde / craft: +2 (2 objets, total=36) ~10 min restantes
+[7/460] Agde / shop: +34 (85 objets, total=70) ~9 min restantes
+[8/460] Ajaccio / shop: +0 (0 objets, total=70) ~8 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[9/460] Anglet / craft: +17 (23 objets, total=87) ~15 min restantes
+[10/460] Anglet / leisure: +0 (0 objets, total=87) ~14 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[11/460] Ajaccio / craft: +0 (0 objets, total=87) ~29 min restantes
+[12/460] Aix-les-Bains / leisure: +0 (0 objets, total=87) ~29 min restantes
+[13/460] Ajaccio / leisure: +0 (2 objets, total=87) ~27 min restantes
+    ! overpass-api.de: HTTP 429
+[14/460] Anglet / amenity: +0 (0 objets, total=87) ~27 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[15/460] Annemasse / leisure: +0 (40 objets, total=87) ~29 min restantes
+[16/460] Anglet / shop: +0 (0 objets, total=87) ~28 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[17/460] Aix-les-Bains / amenity: +42 (90 objets, total=129) ~34 min restantes
+[18/460] Antibes / leisure: +0 (0 objets, total=129) ~32 min restantes
+[19/460] Antibes / shop: +92 (247 objets, total=221) ~32 min restantes
+[20/460] Arles / amenity: +0 (0 objets, total=221) ~30 min restantes
+    ! overpass-api.de: HTTP 504
+[21/460] Annemasse / craft: +20 (28 objets, total=241) ~31 min restantes
+    ! overpass-api.de: HTTP 504
+[22/460] Arles / leisure: +0 (1 objets, total=241) ~30 min restantes
+[23/460] Arles / shop: +0 (0 objets, total=241) ~29 min restantes
+[24/460] Arles / craft: +0 (0 objets, total=241) ~29 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[25/460] Aubagne / craft: +0 (0 objets, total=241) ~31 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[26/460] Annemasse / amenity: +92 (336 objets, total=333) ~34 min restantes
+    ! overpass-api.de: HTTP 504
+[27/460] Antibes / craft: +5 (7 objets, total=338) ~36 min restantes
+[28/460] Bastia / amenity: +0 (0 objets, total=338) ~35 min restantes
+[29/460] Aubagne / shop: +57 (192 objets, total=395) ~35 min restantes
+    ! overpass-api.de: HTTP 504
+[30/460] Bastia / leisure: +0 (0 objets, total=395) ~34 min restantes
+[31/460] Aubagne / leisure: +0 (9 objets, total=395) ~33 min restantes
+[32/460] Bastia / shop: +23 (94 objets, total=418) ~32 min restantes
+[33/460] Beaune / craft: +0 (0 objets, total=418) ~31 min restantes
+    ! overpass-api.de: HTTP 504
+[34/460] Beaune / leisure: +0 (0 objets, total=418) ~33 min restantes
+[35/460] Beaune / shop: +23 (94 objets, total=441) ~33 min restantes
+[36/460] Bastia / craft: +4 (5 objets, total=445) ~33 min restantes
+[37/460] Belfort / craft: +0 (0 objets, total=445) ~32 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: The read operation timed out
+[38/460] Belfort / leisure: +0 (0 objets, total=445) ~39 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+[39/460] Belfort / shop: +53 (153 objets, total=498) ~38 min restantes
+    ! overpass.kumi.systems: HTTP 504
+[40/460] Annemasse / shop: +108 (447 objets, total=606) ~39 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+[41/460] Biarritz / craft: +4 (13 objets, total=610) ~39 min restantes
+[42/460] Biarritz / leisure: +0 (0 objets, total=610) ~38 min restantes
+[43/460] Antibes / amenity: +93 (205 objets, total=703) ~37 min restantes
+[44/460] Boulogne-sur-Mer / amenity: +20 (128 objets, total=723) ~36 min restantes
+[45/460] Boulogne-sur-Mer / craft: +0 (0 objets, total=723) ~35 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: HTTP 504
+[46/460] Biarritz / shop: +0 (0 objets, total=723) ~40 min restantes
+[47/460] Beaune / amenity: +0 (0 objets, total=723) ~40 min restantes
+    ! overpass-api.de: HTTP 504
+[48/460] Boulogne-sur-Mer / leisure: +0 (6 objets, total=723) ~40 min restantes
+[49/460] Béziers / craft: +0 (0 objets, total=723) ~39 min restantes
+    ! overpass-api.de: HTTP 504
+[50/460] Béziers / leisure: +0 (11 objets, total=723) ~38 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+[51/460] Boulogne-sur-Mer / shop: +0 (0 objets, total=723) ~38 min restantes
+    ! overpass-api.de: HTTP 504
+[52/460] Belfort / amenity: +0 (0 objets, total=723) ~38 min restantes
+[53/460] Béziers / amenity: +15 (98 objets, total=738) ~37 min restantes
+[54/460] Cagnes-sur-Mer / amenity: +0 (0 objets, total=738) ~37 min restantes
+[55/460] Cagnes-sur-Mer / leisure: +0 (25 objets, total=738) ~36 min restantes
+    ! overpass-api.de: HTTP 504
+[56/460] Cagnes-sur-Mer / shop: +22 (119 objets, total=760) ~36 min restantes
+[57/460] Calais / craft: +0 (0 objets, total=760) ~35 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[58/460] Aubagne / amenity: +0 (0 objets, total=760) ~36 min restantes
+[59/460] Cagnes-sur-Mer / craft: +3 (4 objets, total=763) ~35 min restantes
+    ! overpass.kumi.systems: HTTP 504
+[60/460] Béziers / shop: +0 (0 objets, total=763) ~35 min restantes
+    ! overpass-api.de: HTTP 504
+[61/460] Cannes / amenity: +46 (132 objets, total=809) ~35 min restantes
+    ! overpass-api.de: HTTP 504
+[62/460] Cannes / leisure: +0 (8 objets, total=809) ~35 min restantes
+[63/460] Cannes / shop: +0 (0 objets, total=809) ~34 min restantes
+[64/460] Cannes / craft: +0 (0 objets, total=809) ~34 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 504
+[65/460] Carcassonne / amenity: +35 (92 objets, total=844) ~34 min restantes
+[66/460] Carcassonne / leisure: +0 (0 objets, total=844) ~34 min restantes
+[67/460] Biarritz / amenity: +0 (0 objets, total=844) ~33 min restantes
+[68/460] Carcassonne / shop: +19 (90 objets, total=863) ~33 min restantes
+[69/460] Chambéry / craft: +0 (0 objets, total=863) ~33 min restantes
+    ! overpass-api.de: HTTP 429
+[70/460] Carcassonne / craft: +1 (1 objets, total=864) ~33 min restantes
+[71/460] Calais / leisure: +0 (1 objets, total=864) ~32 min restantes
+    ! overpass-api.de: HTTP 429
+[72/460] Concarneau / amenity: +0 (0 objets, total=864) ~32 min restantes
+[73/460] Chambéry / shop: +30 (136 objets, total=894) ~31 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[74/460] Calais / shop: +0 (0 objets, total=894) ~31 min restantes
+    ! overpass-api.de: HTTP 504
+[75/460] Concarneau / shop: +11 (40 objets, total=905) ~32 min restantes
+[76/460] Dax / amenity: +0 (0 objets, total=905) ~32 min restantes
+    ! overpass-api.de: HTTP 504
+[77/460] Dax / craft: +0 (0 objets, total=905) ~32 min restantes
+    ! overpass-api.de: HTTP 504
+[78/460] Concarneau / craft: +0 (0 objets, total=905) ~32 min restantes
+    ! overpass-api.de: HTTP 504
+[79/460] Chambéry / leisure: +0 (9 objets, total=905) ~33 min restantes
+[80/460] Dieppe / amenity: +0 (0 objets, total=905) ~32 min restantes
+[81/460] Dax / shop: +50 (183 objets, total=955) ~32 min restantes
+[82/460] Dieppe / leisure: +0 (0 objets, total=955) ~31 min restantes
+[83/460] Dieppe / shop: +26 (143 objets, total=981) ~31 min restantes
+    ! overpass.kumi.systems: HTTP 504
+[84/460] Dieppe / craft: +1 (2 objets, total=982) ~31 min restantes
+[85/460] Dole / craft: +0 (0 objets, total=982) ~31 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[86/460] Dole / amenity: +22 (77 objets, total=1004) ~31 min restantes
+[87/460] Dole / shop: +0 (0 objets, total=1004) ~30 min restantes
+[88/460] Dax / leisure: +0 (0 objets, total=1004) ~30 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[89/460] Draguignan / amenity: +0 (0 objets, total=1004) ~32 min restantes
+[90/460] Draguignan / leisure: +0 (7 objets, total=1004) ~32 min restantes
+[91/460] Draguignan / shop: +0 (0 objets, total=1004) ~32 min restantes
+[92/460] Frontignan / amenity: +4 (23 objets, total=1008) ~32 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+[93/460] Draguignan / craft: +4 (5 objets, total=1012) ~31 min restantes
+[94/460] Frontignan / leisure: +0 (0 objets, total=1012) ~31 min restantes
+    ! overpass-api.de: HTTP 429
+[95/460] Frontignan / craft: +1 (1 objets, total=1013) ~31 min restantes
+[96/460] Concarneau / leisure: +0 (0 objets, total=1013) ~30 min restantes
+[97/460] Dole / leisure: +0 (9 objets, total=1013) ~30 min restantes
+    ! overpass-api.de: HTTP 429
+[98/460] Fréjus / amenity: +15 (61 objets, total=1028) ~31 min restantes
+[99/460] Fréjus / shop: +0 (0 objets, total=1028) ~30 min restantes
+[100/460] Fréjus / leisure: +0 (8 objets, total=1028) ~30 min restantes
+    ! overpass-api.de: HTTP 429
+[101/460] Gap / craft: +1 (2 objets, total=1029) ~31 min restantes
+[102/460] Gap / leisure: +0 (0 objets, total=1029) ~30 min restantes
+[103/460] Frontignan / shop: +5 (14 objets, total=1034) ~30 min restantes
+[104/460] Grasse / amenity: +0 (0 objets, total=1034) ~30 min restantes
+    ! overpass-api.de: HTTP 429
+[105/460] Grasse / craft: +1 (2 objets, total=1035) ~30 min restantes
+[106/460] Fréjus / craft: +0 (0 objets, total=1035) ~29 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[107/460] Gap / amenity: +0 (0 objets, total=1035) ~30 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 504
+[108/460] Grasse / leisure: +0 (9 objets, total=1035) ~30 min restantes
+[109/460] Gujan-Mestras / craft: +0 (0 objets, total=1035) ~30 min restantes
+[110/460] Gujan-Mestras / amenity: +0 (0 objets, total=1035) ~29 min restantes
+    ! overpass-api.de: HTTP 504
+[111/460] Gujan-Mestras / leisure: +0 (0 objets, total=1035) ~29 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[112/460] Grasse / shop: +0 (0 objets, total=1035) ~30 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[113/460] Hyères / amenity: +5 (14 objets, total=1040) ~30 min restantes
+[114/460] Hyères / leisure: +0 (0 objets, total=1040) ~30 min restantes
+[115/460] Hyères / shop: +7 (15 objets, total=1047) ~29 min restantes
+[116/460] Istres / amenity: +0 (0 objets, total=1047) ~29 min restantes
+[117/460] Calais / amenity: +0 (0 objets, total=1047) ~29 min restantes
+[118/460] Hyères / craft: +0 (4 objets, total=1047) ~29 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[119/460] Istres / craft: +0 (0 objets, total=1047) ~29 min restantes
+[120/460] L'Isle-sur-la-Sorgue / amenity: +6 (19 objets, total=1053) ~28 min restantes
+[121/460] Istres / leisure: +0 (0 objets, total=1053) ~28 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[122/460] Gujan-Mestras / shop: +0 (2 objets, total=1053) ~28 min restantes
+[123/460] L'Isle-sur-la-Sorgue / shop: +0 (0 objets, total=1053) ~28 min restantes
+[124/460] L'Isle-sur-la-Sorgue / craft: +2 (2 objets, total=1055) ~28 min restantes
+[125/460] Chambéry / amenity: +58 (183 objets, total=1113) ~28 min restantes
+[126/460] La Ciotat / leisure: +0 (0 objets, total=1113) ~27 min restantes
+[127/460] La Ciotat / craft: +2 (2 objets, total=1115) ~27 min restantes
+    ! overpass-api.de: HTTP 429
+[128/460] La Roche-sur-Yon / amenity: +33 (130 objets, total=1148) ~27 min restantes
+[129/460] La Roche-sur-Yon / craft: +0 (0 objets, total=1148) ~26 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[130/460] Istres / shop: +0 (10 objets, total=1148) ~27 min restantes
+[131/460] La Roche-sur-Yon / shop: +0 (0 objets, total=1148) ~26 min restantes
+[132/460] La Roche-sur-Yon / leisure: +0 (0 objets, total=1148) ~26 min restantes
+    ! overpass-api.de: HTTP 504
+[133/460] La Seyne-sur-Mer / craft: +3 (4 objets, total=1151) ~26 min restantes
+[134/460] La Seyne-sur-Mer / leisure: +0 (3 objets, total=1151) ~26 min restantes
+[135/460] La Seyne-sur-Mer / shop: +0 (0 objets, total=1151) ~26 min restantes
+[136/460] La Teste-de-Buch / amenity: +4 (5 objets, total=1155) ~26 min restantes
+[137/460] La Teste-de-Buch / craft: +0 (0 objets, total=1155) ~25 min restantes
+[138/460] L'Isle-sur-la-Sorgue / leisure: +0 (3 objets, total=1155) ~25 min restantes
+[139/460] La Teste-de-Buch / shop: +0 (0 objets, total=1155) ~25 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[140/460] La Ciotat / amenity: +7 (28 objets, total=1162) ~25 min restantes
+[141/460] Lanester / craft: +0 (0 objets, total=1162) ~25 min restantes
+[142/460] Lanester / leisure: +0 (7 objets, total=1162) ~25 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+[143/460] La Teste-de-Buch / leisure: +0 (0 objets, total=1162) ~25 min restantes
+[144/460] Lanester / amenity: +0 (0 objets, total=1162) ~25 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[145/460] Gap / shop: +0 (0 objets, total=1162) ~26 min restantes
+[146/460] Lannion / leisure: +0 (8 objets, total=1162) ~26 min restantes
+[147/460] Lannion / craft: +0 (0 objets, total=1162) ~26 min restantes
+[148/460] Lannion / shop: +19 (95 objets, total=1181) ~26 min restantes
+[149/460] Le Cannet / craft: +0 (0 objets, total=1181) ~26 min restantes
+    ! overpass-api.de: HTTP 504
+[150/460] Le Cannet / leisure: +0 (11 objets, total=1181) ~25 min restantes
+[151/460] Le Cannet / shop: +36 (131 objets, total=1217) ~25 min restantes
+[152/460] Lannion / amenity: +0 (0 objets, total=1217) ~25 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: The read operation timed out
+[153/460] Les Sables-d'Olonne / craft: +4 (4 objets, total=1221) ~25 min restantes
+[154/460] Les Sables-d'Olonne / leisure: +0 (0 objets, total=1221) ~25 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[155/460] Les Sables-d'Olonne / shop: +20 (145 objets, total=1241) ~25 min restantes
+[156/460] Libourne / amenity: +0 (0 objets, total=1241) ~25 min restantes
+[157/460] La Ciotat / shop: +8 (30 objets, total=1249) ~25 min restantes
+[158/460] Le Cannet / amenity: +0 (0 objets, total=1249) ~24 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[159/460] La Seyne-sur-Mer / amenity: +13 (57 objets, total=1262) ~24 min restantes
+[160/460] Mandelieu-la-Napoule / amenity: +0 (0 objets, total=1262) ~24 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[161/460] Libourne / leisure: +0 (0 objets, total=1262) ~25 min restantes
+[162/460] Libourne / shop: +0 (0 objets, total=1262) ~25 min restantes
+    ! overpass-api.de: HTTP 504
+[163/460] Mandelieu-la-Napoule / shop: +7 (63 objets, total=1269) ~25 min restantes
+[164/460] Manosque / amenity: +15 (59 objets, total=1284) ~25 min restantes
+[165/460] Manosque / craft: +0 (0 objets, total=1284) ~24 min restantes
+[166/460] Mandelieu-la-Napoule / leisure: +0 (0 objets, total=1284) ~24 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[167/460] Manosque / shop: +22 (94 objets, total=1306) ~24 min restantes
+[168/460] Martigues / amenity: +0 (0 objets, total=1306) ~24 min restantes
+[169/460] Martigues / craft: +0 (0 objets, total=1306) ~24 min restantes
+[170/460] Martigues / leisure: +0 (0 objets, total=1306) ~24 min restantes
+[171/460] Libourne / craft: +3 (13 objets, total=1309) ~24 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[172/460] Mandelieu-la-Napoule / craft: +0 (0 objets, total=1309) ~24 min restantes
+    ! overpass-api.de: HTTP 429
+[173/460] Manosque / leisure: +0 (12 objets, total=1309) ~24 min restantes
+[174/460] Menton / leisure: +0 (0 objets, total=1309) ~24 min restantes
+    ! overpass-api.de: HTTP 429
+[175/460] Menton / craft: +0 (0 objets, total=1309) ~24 min restantes
+[176/460] Martigues / shop: +4 (16 objets, total=1313) ~24 min restantes
+    ! overpass-api.de: HTTP 504
+[177/460] Menton / shop: +0 (0 objets, total=1313) ~24 min restantes
+[178/460] Montbéliard / leisure: +0 (8 objets, total=1313) ~24 min restantes
+[179/460] Montbéliard / craft: +3 (5 objets, total=1316) ~24 min restantes
+[180/460] Montélimar / amenity: +0 (0 objets, total=1316) ~24 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+[181/460] Montélimar / craft: +35 (42 objets, total=1351) ~23 min restantes
+[182/460] Montélimar / leisure: +0 (0 objets, total=1351) ~23 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[183/460] Montbéliard / shop: +0 (0 objets, total=1351) ~24 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[184/460] Les Sables-d'Olonne / amenity: +0 (0 objets, total=1351) ~24 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 429
+[185/460] Montélimar / shop: +89 (344 objets, total=1440) ~24 min restantes
+[186/460] Narbonne / leisure: +0 (0 objets, total=1440) ~24 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+[187/460] Narbonne / shop: +2 (24 objets, total=1442) ~24 min restantes
+[188/460] Rochefort / amenity: +11 (77 objets, total=1453) ~23 min restantes
+[189/460] Rochefort / craft: +0 (0 objets, total=1453) ~23 min restantes
+[190/460] Rochefort / leisure: +0 (10 objets, total=1453) ~23 min restantes
+[191/460] Menton / amenity: +0 (0 objets, total=1453) ~23 min restantes
+[192/460] Rochefort / shop: +24 (156 objets, total=1477) ~23 min restantes
+    ! overpass-api.de: HTTP 429
+[193/460] Narbonne / amenity: +0 (0 objets, total=1477) ~23 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[194/460] Lanester / shop: +0 (0 objets, total=1477) ~23 min restantes
+[195/460] Narbonne / craft: +0 (0 objets, total=1477) ~23 min restantes
+[196/460] Saint-Brieuc / amenity: +33 (162 objets, total=1510) ~23 min restantes
+[197/460] Saint-Brieuc / craft: +0 (0 objets, total=1510) ~22 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[198/460] Romans-sur-Isère / leisure: +0 (0 objets, total=1510) ~23 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 504
+[199/460] Saint-Brieuc / shop: +0 (0 objets, total=1510) ~23 min restantes
+[200/460] Saint-Laurent-du-Var / amenity: +44 (187 objets, total=1554) ~23 min restantes
+[201/460] Romans-sur-Isère / shop: +0 (0 objets, total=1554) ~22 min restantes
+[202/460] Romans-sur-Isère / amenity: +28 (83 objets, total=1582) ~22 min restantes
+[203/460] Saint-Laurent-du-Var / shop: +0 (0 objets, total=1582) ~22 min restantes
+[204/460] Saint-Malo / amenity: +87 (180 objets, total=1669) ~22 min restantes
+[205/460] Saint-Brieuc / leisure: +0 (11 objets, total=1669) ~22 min restantes
+    ! overpass-api.de: HTTP 429
+[206/460] Saint-Malo / leisure: +0 (0 objets, total=1669) ~22 min restantes
+[207/460] Saint-Laurent-du-Var / craft: +3 (9 objets, total=1672) ~21 min restantes
+    ! overpass-api.de: HTTP 429
+[208/460] Saint-Raphaël / amenity: +2 (6 objets, total=1674) ~21 min restantes
+[209/460] Saint-Raphaël / craft: +0 (0 objets, total=1674) ~21 min restantes
+    ! overpass-api.de: HTTP 429
+[210/460] Saint-Laurent-du-Var / leisure: +0 (33 objets, total=1674) ~22 min restantes
+[211/460] Saint-Raphaël / shop: +0 (0 objets, total=1674) ~21 min restantes
+[212/460] Saint-Malo / craft: +22 (27 objets, total=1696) ~21 min restantes
+[213/460] Saint-Malo / shop: +0 (0 objets, total=1696) ~21 min restantes
+    ! overpass-api.de: HTTP 429
+[214/460] Saintes / craft: +19 (21 objets, total=1715) ~21 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: The read operation timed out
+[215/460] Saint-Raphaël / leisure: +0 (0 objets, total=1715) ~21 min restantes
+[216/460] Salon-de-Provence / amenity: +22 (53 objets, total=1737) ~21 min restantes
+[217/460] Romans-sur-Isère / craft: +0 (0 objets, total=1737) ~21 min restantes
+[218/460] Salon-de-Provence / leisure: +0 (3 objets, total=1737) ~21 min restantes
+[219/460] Salon-de-Provence / craft: +4 (4 objets, total=1741) ~20 min restantes
+[220/460] Six-Fours-les-Plages / amenity: +0 (0 objets, total=1741) ~20 min restantes
+    ! overpass-api.de: HTTP 429
+[221/460] Saintes / leisure: +0 (0 objets, total=1741) ~20 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[222/460] Salon-de-Provence / shop: +12 (55 objets, total=1753) ~21 min restantes
+[223/460] Six-Fours-les-Plages / shop: +0 (0 objets, total=1753) ~20 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[224/460] Montbéliard / amenity: +0 (0 objets, total=1753) ~20 min restantes
+[225/460] Six-Fours-les-Plages / craft: +1 (1 objets, total=1754) ~20 min restantes
+[226/460] Sète / leisure: +0 (0 objets, total=1754) ~20 min restantes
+[227/460] Sète / shop: +2 (9 objets, total=1756) ~20 min restantes
+    ! overpass-api.de: HTTP 429
+[228/460] Saintes / amenity: +18 (80 objets, total=1774) ~20 min restantes
+[229/460] Tarbes / craft: +0 (0 objets, total=1774) ~20 min restantes
+[230/460] Tarbes / leisure: +0 (5 objets, total=1774) ~20 min restantes
+[231/460] Tarbes / shop: +0 (0 objets, total=1774) ~19 min restantes
+    ! overpass-api.de: HTTP 429
+[232/460] Sète / amenity: +5 (29 objets, total=1779) ~20 min restantes
+[233/460] Thonon-les-Bains / craft: +4 (6 objets, total=1783) ~20 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[234/460] Six-Fours-les-Plages / leisure: +0 (0 objets, total=1783) ~20 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 429
+[235/460] Saintes / shop: +0 (0 objets, total=1783) ~20 min restantes
+[236/460] Vallauris / amenity: +5 (108 objets, total=1788) ~19 min restantes
+    ! overpass.kumi.systems: HTTP 504
+[237/460] Thonon-les-Bains / leisure: +0 (16 objets, total=1788) ~19 min restantes
+    ! overpass-api.de: HTTP 504
+[238/460] Sète / craft: +0 (0 objets, total=1788) ~19 min restantes
+[239/460] Vallauris / shop: +0 (0 objets, total=1788) ~19 min restantes
+    ! overpass.kumi.systems: HTTP 504
+[240/460] Vannes / amenity: +51 (165 objets, total=1839) ~19 min restantes
+[241/460] Thonon-les-Bains / shop: +22 (150 objets, total=1861) ~19 min restantes
+[242/460] Vallauris / leisure: +0 (11 objets, total=1861) ~19 min restantes
+[243/460] Vannes / shop: +0 (0 objets, total=1861) ~19 min restantes
+[244/460] Vichy / amenity: +56 (178 objets, total=1917) ~19 min restantes
+[245/460] Vichy / craft: +0 (0 objets, total=1917) ~18 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[246/460] Vallauris / craft: +2 (5 objets, total=1919) ~18 min restantes
+[247/460] Vichy / shop: +0 (0 objets, total=1919) ~18 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[248/460] Tarbes / amenity: +0 (0 objets, total=1919) ~19 min restantes
+[249/460] Thonon-les-Bains / amenity: +27 (126 objets, total=1946) ~18 min restantes
+[250/460] Vannes / craft: +11 (17 objets, total=1957) ~18 min restantes
+[251/460] Vichy / leisure: +0 (0 objets, total=1957) ~18 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[252/460] Voiron / craft: +0 (0 objets, total=1957) ~18 min restantes
+[253/460] Voiron / leisure: +0 (0 objets, total=1957) ~18 min restantes
+[254/460] Épinal / leisure: +0 (6 objets, total=1957) ~18 min restantes
+[255/460] Épinal / craft: +10 (13 objets, total=1967) ~18 min restantes
+[256/460] Paris / amenity: +0 (0 objets, total=1967) ~18 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[257/460] Voiron / amenity: +35 (106 objets, total=2002) ~18 min restantes
+[258/460] Paris / leisure: +0 (0 objets, total=2002) ~18 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[259/460] Épinal / shop: +0 (0 objets, total=2002) ~18 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[260/460] Vannes / leisure: +0 (0 objets, total=2002) ~18 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[261/460] Épinal / amenity: +0 (0 objets, total=2002) ~18 min restantes
+[262/460] Lyon / leisure: +8 (360 objets, total=2010) ~18 min restantes
+[263/460] Lyon / amenity: +0 (0 objets, total=2010) ~18 min restantes
+[264/460] Lyon / shop: +893 (3472 objets, total=2903) ~17 min restantes
+[265/460] Paris / craft: +496 (822 objets, total=3399) ~17 min restantes
+[266/460] Marseille / leisure: +0 (0 objets, total=3399) ~17 min restantes
+    ! overpass-api.de: HTTP 504
+[267/460] Marseille / shop: +198 (1310 objets, total=3597) ~17 min restantes
+[268/460] Lyon / craft: +0 (0 objets, total=3597) ~17 min restantes
+[269/460] Marseille / craft: +46 (93 objets, total=3643) ~17 min restantes
+[270/460] Lille / leisure: +0 (0 objets, total=3643) ~17 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 429
+[271/460] Paris / shop: +2618 (12360 objets, total=6261) ~17 min restantes
+[272/460] Voiron / shop: +0 (0 objets, total=6261) ~16 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[273/460] Marseille / amenity: +387 (1731 objets, total=6648) ~16 min restantes
+[274/460] Lille / craft: +0 (0 objets, total=6648) ~17 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[275/460] Lille / shop: +0 (0 objets, total=6648) ~16 min restantes
+    ! overpass.kumi.systems: HTTP 504
+[276/460] Toulouse / craft: +0 (0 objets, total=6648) ~16 min restantes
+    ! overpass-api.de: HTTP 504
+[277/460] Toulouse / shop: +539 (2274 objets, total=7187) ~16 min restantes
+    ! overpass-api.de: HTTP 504
+[278/460] Toulouse / leisure: +0 (0 objets, total=7187) ~16 min restantes
+    ! overpass-api.de: HTTP 504
+[279/460] Bordeaux / craft: +0 (0 objets, total=7187) ~16 min restantes
+    ! overpass-api.de: HTTP 504
+[280/460] Bordeaux / shop: +405 (2132 objets, total=7592) ~16 min restantes
+[281/460] Nantes / craft: +0 (0 objets, total=7592) ~16 min restantes
+    ! overpass.kumi.systems: HTTP 504
+[282/460] Toulouse / amenity: +0 (0 objets, total=7592) ~16 min restantes
+[283/460] Nantes / leisure: +3 (228 objets, total=7595) ~16 min restantes
+[284/460] Nantes / amenity: +675 (1978 objets, total=8270) ~16 min restantes
+[285/460] Nice / craft: +0 (0 objets, total=8270) ~15 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[286/460] Bordeaux / amenity: +0 (0 objets, total=8270) ~15 min restantes
+    ! overpass-api.de: HTTP 504
+[287/460] Nice / shop: +0 (0 objets, total=8270) ~15 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[288/460] Nice / amenity: +0 (0 objets, total=8270) ~15 min restantes
+    ! overpass.kumi.systems: HTTP 504
+[289/460] Strasbourg / craft: +131 (194 objets, total=8401) ~15 min restantes
+[290/460] Strasbourg / leisure: +0 (0 objets, total=8401) ~15 min restantes
+    ! overpass.kumi.systems: HTTP 504
+[291/460] Lille / amenity: +819 (4303 objets, total=9220) ~15 min restantes
+[292/460] Nantes / shop: +0 (0 objets, total=9220) ~15 min restantes
+    ! overpass-api.de: HTTP 429
+[293/460] Montpellier / amenity: +373 (1206 objets, total=9593) ~15 min restantes
+[294/460] Montpellier / leisure: +0 (0 objets, total=9593) ~15 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[295/460] Montpellier / craft: +0 (0 objets, total=9593) ~15 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 504
+[296/460] Bordeaux / leisure: +0 (0 objets, total=9593) ~15 min restantes
+[297/460] Montpellier / shop: +302 (1187 objets, total=9895) ~15 min restantes
+[298/460] Rennes / amenity: +0 (0 objets, total=9895) ~15 min restantes
+[299/460] Rennes / craft: +147 (215 objets, total=10042) ~15 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[300/460] Rennes / shop: +0 (0 objets, total=10042) ~14 min restantes
+    ! overpass-api.de: HTTP 504
+[301/460] Grenoble / craft: +0 (0 objets, total=10042) ~14 min restantes
+[302/460] Rennes / leisure: +0 (151 objets, total=10042) ~14 min restantes
+    ! overpass-api.de: HTTP 504
+[303/460] Grenoble / shop: +261 (979 objets, total=10303) ~14 min restantes
+[304/460] Rouen / amenity: +0 (0 objets, total=10303) ~14 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[305/460] Grenoble / leisure: +0 (190 objets, total=10303) ~14 min restantes
+[306/460] Rouen / leisure: +0 (0 objets, total=10303) ~14 min restantes
+[307/460] Rouen / craft: +0 (0 objets, total=10303) ~14 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[308/460] Grenoble / amenity: +351 (1249 objets, total=10654) ~14 min restantes
+[309/460] Strasbourg / shop: +426 (1417 objets, total=11080) ~14 min restantes
+[310/460] Toulon / leisure: +0 (0 objets, total=11080) ~13 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+[311/460] Toulon / amenity: +0 (0 objets, total=11080) ~13 min restantes
+    ! overpass-api.de: HTTP 504
+[312/460] Toulon / craft: +28 (55 objets, total=11108) ~13 min restantes
+[313/460] Toulon / shop: +0 (0 objets, total=11108) ~13 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 504
+[314/460] Nice / leisure: +0 (0 objets, total=11108) ~13 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[315/460] Saint-Etienne / leisure: +0 (0 objets, total=11108) ~13 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[316/460] Rouen / shop: +0 (0 objets, total=11108) ~13 min restantes
+[317/460] Saint-Etienne / shop: +195 (785 objets, total=11303) ~13 min restantes
+[318/460] Nancy / leisure: +0 (0 objets, total=11303) ~13 min restantes
+    ! overpass-api.de: HTTP 504
+[319/460] Saint-Etienne / amenity: +195 (870 objets, total=11498) ~13 min restantes
+[320/460] Nancy / amenity: +0 (0 objets, total=11498) ~13 min restantes
+[321/460] Nancy / shop: +314 (1112 objets, total=11812) ~12 min restantes
+[322/460] Tours / leisure: +0 (122 objets, total=11812) ~12 min restantes
+[323/460] Tours / shop: +0 (0 objets, total=11812) ~12 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[324/460] Clermont-Ferrand / amenity: +0 (0 objets, total=11812) ~12 min restantes
+[325/460] Tours / craft: +81 (144 objets, total=11893) ~12 min restantes
+[326/460] Clermont-Ferrand / leisure: +0 (0 objets, total=11893) ~12 min restantes
+    ! overpass-api.de: HTTP 504
+[327/460] Clermont-Ferrand / shop: +114 (522 objets, total=12007) ~12 min restantes
+[328/460] Clermont-Ferrand / craft: +0 (0 objets, total=12007) ~12 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+[329/460] Reims / amenity: +0 (0 objets, total=12007) ~12 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[330/460] Reims / leisure: +0 (0 objets, total=12007) ~12 min restantes
+[331/460] Strasbourg / amenity: +0 (0 objets, total=12007) ~12 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[332/460] Le Havre / amenity: +0 (0 objets, total=12007) ~12 min restantes
+[333/460] Reims / shop: +141 (542 objets, total=12148) ~12 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[334/460] Le Havre / craft: +0 (0 objets, total=12148) ~12 min restantes
+[335/460] Reims / craft: +40 (68 objets, total=12188) ~11 min restantes
+[336/460] Tours / amenity: +0 (0 objets, total=12188) ~11 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[337/460] Saint-Etienne / craft: +0 (0 objets, total=12188) ~11 min restantes
+[338/460] Le Havre / leisure: +0 (55 objets, total=12188) ~11 min restantes
+[339/460] Dijon / shop: +0 (0 objets, total=12188) ~11 min restantes
+[340/460] Angers / amenity: +156 (786 objets, total=12344) ~11 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[341/460] Angers / craft: +24 (64 objets, total=12368) ~11 min restantes
+[342/460] Angers / leisure: +0 (0 objets, total=12368) ~11 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[343/460] Dijon / craft: +0 (0 objets, total=12368) ~11 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[344/460] Dijon / leisure: +0 (0 objets, total=12368) ~11 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[345/460] Nimes / craft: +0 (0 objets, total=12368) ~11 min restantes
+[346/460] Angers / shop: +0 (0 objets, total=12368) ~10 min restantes
+    ! overpass-api.de: HTTP 504
+[347/460] Nancy / craft: +114 (172 objets, total=12482) ~10 min restantes
+[348/460] Nimes / amenity: +0 (0 objets, total=12482) ~10 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[349/460] Dijon / amenity: +0 (0 objets, total=12482) ~10 min restantes
+[350/460] Aix-en-Provence / craft: +25 (53 objets, total=12507) ~10 min restantes
+[351/460] Nimes / shop: +0 (0 objets, total=12507) ~10 min restantes
+[352/460] Le Havre / shop: +133 (591 objets, total=12640) ~10 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[353/460] Aix-en-Provence / leisure: +0 (0 objets, total=12640) ~10 min restantes
+[354/460] Aix-en-Provence / shop: +120 (845 objets, total=12760) ~10 min restantes
+[355/460] Le Mans / shop: +0 (0 objets, total=12760) ~10 min restantes
+[356/460] Le Mans / leisure: +0 (63 objets, total=12760) ~9 min restantes
+[357/460] Le Mans / amenity: +111 (550 objets, total=12871) ~9 min restantes
+[358/460] Brest / leisure: +0 (0 objets, total=12871) ~9 min restantes
+    ! overpass-api.de: HTTP 429
+[359/460] Aix-en-Provence / amenity: +193 (837 objets, total=13064) ~9 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[360/460] Nimes / leisure: +0 (0 objets, total=13064) ~9 min restantes
+    ! overpass.kumi.systems: HTTP 504
+[361/460] Brest / craft: +44 (77 objets, total=13108) ~9 min restantes
+    ! overpass-api.de: HTTP 429
+[362/460] Amiens / leisure: +0 (34 objets, total=13108) ~9 min restantes
+[363/460] Amiens / shop: +0 (0 objets, total=13108) ~9 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[364/460] Brest / amenity: +0 (0 objets, total=13108) ~9 min restantes
+[365/460] Amiens / amenity: +0 (0 objets, total=13108) ~9 min restantes
+[366/460] Le Mans / craft: +26 (51 objets, total=13134) ~9 min restantes
+[367/460] Limoges / shop: +88 (527 objets, total=13222) ~8 min restantes
+[368/460] Metz / amenity: +0 (0 objets, total=13222) ~8 min restantes
+[369/460] Limoges / craft: +24 (38 objets, total=13246) ~8 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[370/460] Amiens / craft: +0 (0 objets, total=13246) ~8 min restantes
+    ! overpass-api.de: HTTP 504
+[371/460] Metz / shop: +0 (0 objets, total=13246) ~8 min restantes
+reprise : 13222 domaines, 368 couples faits
+92 couples (ville, cle) a traiter sur 460
+[1/92] Metz / craft: +0 (0 objets, total=13222) ~1 min restantes
+[2/92] Limoges / amenity: +0 (0 objets, total=13222) ~0 min restantes
+[3/92] Limoges / leisure: +0 (29 objets, total=13222) ~2 min restantes
+[4/92] Besancon / amenity: +0 (0 objets, total=13222) ~2 min restantes
+[5/92] Amiens / craft: +20 (28 objets, total=13242) ~3 min restantes
+[6/92] Limoges / craft: +24 (38 objets, total=13266) ~3 min restantes
+[7/92] Besancon / shop: +0 (0 objets, total=13266) ~3 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[8/92] Brest / shop: +167 (754 objets, total=13433) ~3 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+[9/92] Metz / shop: +0 (0 objets, total=13433) ~6 min restantes
+    ! overpass-api.de: HTTP 429
+[10/92] Besancon / craft: +0 (0 objets, total=13433) ~7 min restantes
+    ! overpass-api.de: HTTP 429
+[11/92] Orleans / amenity: +204 (757 objets, total=13637) ~8 min restantes
+[12/92] Mulhouse / amenity: +5 (12 objets, total=13642) ~7 min restantes
+    ! overpass-api.de: HTTP 429
+[13/92] Orleans / leisure: +0 (81 objets, total=13642) ~9 min restantes
+[14/92] Mulhouse / leisure: +0 (2 objets, total=13642) ~8 min restantes
+    ! overpass-api.de: HTTP 504
+[15/92] Mulhouse / shop: +1 (4 objets, total=13643) ~8 min restantes
+[16/92] Caen / amenity: +288 (1114 objets, total=13931) ~8 min restantes
+[17/92] Caen / craft: +0 (0 objets, total=13931) ~8 min restantes
+[18/92] Caen / leisure: +0 (132 objets, total=13931) ~8 min restantes
+[19/92] Caen / shop: +242 (1057 objets, total=14173) ~8 min restantes
+[20/92] Perpignan / amenity: +0 (0 objets, total=14173) ~7 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass.kumi.systems: The read operation timed out
+[21/92] Orleans / craft: +0 (0 objets, total=14173) ~8 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[22/92] Besancon / leisure: +0 (0 objets, total=14173) ~9 min restantes
+[23/92] Perpignan / craft: +38 (94 objets, total=14211) ~9 min restantes
+[24/92] Avignon / amenity: +0 (0 objets, total=14211) ~9 min restantes
+    ! overpass-api.de: HTTP 504
+[25/92] Perpignan / leisure: +0 (146 objets, total=14211) ~8 min restantes
+[26/92] Avignon / leisure: +0 (0 objets, total=14211) ~8 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[27/92] Avignon / craft: +0 (0 objets, total=14211) ~8 min restantes
+[28/92] Perpignan / shop: +195 (861 objets, total=14406) ~7 min restantes
+[29/92] Avignon / shop: +0 (0 objets, total=14406) ~7 min restantes
+    ! overpass-api.de: HTTP 504
+[30/92] Poitiers / craft: +16 (31 objets, total=14422) ~7 min restantes
+[31/92] Poitiers / leisure: +1 (33 objets, total=14423) ~7 min restantes
+[32/92] Annecy / amenity: +2 (7 objets, total=14425) ~6 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 504
+[33/92] Metz / leisure: +0 (0 objets, total=14425) ~6 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+    ! overpass-api.de: HTTP 504
+[34/92] Poitiers / amenity: +65 (423 objets, total=14490) ~6 min restantes
+[35/92] Annecy / shop: +0 (4 objets, total=14490) ~6 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+[36/92] Annecy / leisure: +0 (2 objets, total=14490) ~6 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[37/92] Pau / amenity: +0 (0 objets, total=14490) ~6 min restantes
+    ! overpass.kumi.systems: HTTP 504
+[38/92] Pau / leisure: +0 (56 objets, total=14490) ~6 min restantes
+[39/92] Pau / shop: +0 (0 objets, total=14490) ~5 min restantes
+[40/92] Mulhouse / craft: +19 (37 objets, total=14509) ~5 min restantes
+[41/92] Poitiers / shop: +0 (0 objets, total=14509) ~5 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[42/92] Annecy / craft: +32 (55 objets, total=14541) ~5 min restantes
+[43/92] Pau / craft: +39 (122 objets, total=14580) ~5 min restantes
+[44/92] Bayonne / amenity: +0 (0 objets, total=14580) ~5 min restantes
+[45/92] La Rochelle / leisure: +0 (0 objets, total=14580) ~5 min restantes
+[46/92] La Rochelle / amenity: +166 (619 objets, total=14746) ~5 min restantes
+    ! overpass-api.de: HTTP 504
+[47/92] Bayonne / shop: +282 (964 objets, total=15028) ~5 min restantes
+    ! overpass-api.de: HTTP 504
+[48/92] Valence / amenity: +0 (0 objets, total=15028) ~4 min restantes
+[49/92] Bayonne / leisure: +0 (0 objets, total=15028) ~4 min restantes
+    ! overpass-api.de: HTTP 504
+[50/92] Bayonne / craft: +41 (101 objets, total=15069) ~4 min restantes
+    ! overpass-api.de: HTTP 504
+[51/92] Valence / craft: +0 (0 objets, total=15069) ~4 min restantes
+[52/92] Valence / shop: +120 (535 objets, total=15189) ~4 min restantes
+[53/92] Troyes / craft: +10 (13 objets, total=15199) ~4 min restantes
+[54/92] Troyes / leisure: +0 (0 objets, total=15199) ~4 min restantes
+    ! overpass-api.de: HTTP 504
+[55/92] Troyes / shop: +49 (285 objets, total=15248) ~4 min restantes
+[56/92] Lorient / amenity: +0 (0 objets, total=15248) ~3 min restantes
+[57/92] Troyes / amenity: +63 (332 objets, total=15311) ~3 min restantes
+[58/92] Lorient / leisure: +0 (0 objets, total=15311) ~3 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+[59/92] Lorient / shop: +0 (0 objets, total=15311) ~3 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[60/92] Orleans / shop: +0 (0 objets, total=15311) ~3 min restantes
+    ! overpass-api.de: HTTP 504
+[61/92] Chambery / amenity: +78 (554 objets, total=15389) ~3 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+[62/92] Chambery / craft: +0 (0 objets, total=15389) ~3 min restantes
+[63/92] Chambery / shop: +38 (406 objets, total=15427) ~3 min restantes
+[64/92] La Rochelle / craft: +0 (0 objets, total=15427) ~3 min restantes
+    ! overpass.kumi.systems: The read operation timed out
+[65/92] La Rochelle / shop: +168 (895 objets, total=15595) ~3 min restantes
+[66/92] Colmar / leisure: +0 (0 objets, total=15595) ~3 min restantes
+[67/92] Colmar / craft: +15 (74 objets, total=15610) ~2 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[68/92] Chambery / leisure: +0 (0 objets, total=15610) ~2 min restantes
+[69/92] Beziers / amenity: +33 (308 objets, total=15643) ~2 min restantes
+[70/92] Beziers / leisure: +0 (67 objets, total=15643) ~2 min restantes
+[71/92] Beziers / shop: +0 (0 objets, total=15643) ~2 min restantes
+[72/92] Colmar / amenity: +203 (480 objets, total=15846) ~2 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[73/92] Quimper / craft: +19 (37 objets, total=15865) ~2 min restantes
+[74/92] Quimper / leisure: +0 (0 objets, total=15865) ~2 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass.kumi.systems: The read operation timed out
+[75/92] Colmar / shop: +73 (265 objets, total=15938) ~2 min restantes
+[76/92] Saint-Nazaire / amenity: +0 (0 objets, total=15938) ~2 min restantes
+[77/92] Valence / leisure: +0 (0 objets, total=15938) ~1 min restantes
+[78/92] Quimper / amenity: +123 (327 objets, total=16061) ~1 min restantes
+[79/92] Saint-Nazaire / shop: +0 (0 objets, total=16061) ~1 min restantes
+[80/92] Saint-Nazaire / craft: +24 (41 objets, total=16085) ~1 min restantes
+    ! overpass-api.de: HTTP 504
+    ! overpass-api.de: HTTP 504
+    ! overpass.kumi.systems: The read operation timed out
+[81/92] Quimper / shop: +0 (0 objets, total=16085) ~1 min restantes
+[82/92] Dunkerque / craft: +4 (6 objets, total=16089) ~1 min restantes
+[83/92] Dunkerque / leisure: +0 (26 objets, total=16089) ~1 min restantes
+[84/92] Saint-Nazaire / leisure: +0 (0 objets, total=16089) ~1 min restantes
+[85/92] Bourges / craft: +0 (0 objets, total=16089) ~1 min restantes
+[86/92] Dunkerque / shop: +47 (311 objets, total=16136) ~1 min restantes
+[87/92] Bourges / amenity: +46 (287 objets, total=16182) ~0 min restantes
+[88/92] Lorient / craft: +0 (0 objets, total=16182) ~0 min restantes
+    ! overpass-api.de: HTTP 429
+    ! overpass-api.de: HTTP 429
+[89/92] Bourges / shop: +71 (224 objets, total=16253) ~0 min restantes
+    ! overpass.kumi.systems: HTTP 504
+    ! overpass-api.de: HTTP 429
+[90/92] Bourges / leisure: +0 (0 objets, total=16253) ~0 min restantes
+[91/92] Dunkerque / amenity: +96 (472 objets, total=16349) ~0 min restantes
+[92/92] Beziers / craft: +10 (22 objets, total=16359) ~0 min restantes
+
+TOTAL 16359 domaines uniques -> candidates_v2.tsv
+  dont 783 portes par 3+ etablissements (chaines)
+  restauration         7780
+  beaute_bienetre      2926
+  services_proximite   2463
+  automobile           1853
+  artisanat_btp        1337

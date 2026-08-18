@@ -19,8 +19,20 @@ from config_prospect import NICHES, BATCH_SIZE, MAX_ETABLISSEMENTS, not_qualifie
 
 DELIVERED = 'delivered.json'
 # Plancher de laideur. 10 = simplement date ; 25+ = visuellement indefendable.
-# Reglable : python select_batch.py --min-design 30
-MIN_DESIGN = 25
+# Fixe a 15 a partir du lot 3 : a 25 le vivier ne portait que 8 lots, or il en
+# faut 20. Reglable : python select_batch.py --min-design 30
+MIN_DESIGN = 15
+
+# Composition d'un lot. La regle des 7 par niche etait une commodite, pas une
+# exigence : elle bridait le compte sur la niche la plus pauvre - 21 garagistes
+# disponibles plafonnaient a 3 lots pendant que 65 restaurants attendaient.
+#
+# On laisse donc respirer, mais dans des bornes : jamais moins de 5 ni plus de
+# 9 par niche. Un lot de 28 restaurants et 7 artisans ne serait pas un lot
+# equilibre, juste une liste de restaurants.
+TAILLE_LOT = 35
+MIN_PAR_NICHE = 5
+MAX_PAR_NICHE = 9
 V1_DELIVERABLES = ('restaurants_tourisme_top40.csv', 'restaurants_tourisme_next20.csv')
 
 dry_run = '--dry-run' in sys.argv
@@ -110,10 +122,25 @@ for r in pool:
     vus_racine.add(cle_racine)
     uniques.append(r)
 
-# --- 7 par niche ------------------------------------------------------------
+# --- composition du lot -----------------------------------------------------
+# Chaque niche recoit d'abord son minimum, puis les places restantes vont aux
+# niches les mieux pourvues, sans qu'aucune ne depasse son plafond.
+par_niche = {n: [r for r in uniques if r['niche'] == n] for n in NICHES}
+quota = {n: min(MIN_PAR_NICHE, len(par_niche[n])) for n in NICHES}
+places = TAILLE_LOT - sum(quota.values())
+while places > 0:
+    # la niche qui a le plus de reserve au-dela de ce qu'on lui a deja donne
+    candidates = [n for n in NICHES
+                  if quota[n] < MAX_PAR_NICHE and len(par_niche[n]) > quota[n]]
+    if not candidates:
+        break
+    n = max(candidates, key=lambda x: len(par_niche[x]) - quota[x])
+    quota[n] += 1
+    places -= 1
+
 lot = []
 for niche in NICHES:
-    lot += [r for r in uniques if r['niche'] == niche][:BATCH_SIZE]
+    lot += par_niche[niche][:quota[niche]]
 
 if not lot:
     print('Aucun prospect disponible : relancer les etapes 1 a 3.')
@@ -136,9 +163,10 @@ with open(sortie, 'w', newline='', encoding='utf-8') as f:
 
 for niche, (label, _) in NICHES.items():
     lignes = [r for r in lot if r['niche'] == niche]
-    dispo = sum(1 for r in uniques if r['niche'] == niche)
-    manque = '' if len(lignes) == BATCH_SIZE else f'  (seulement {len(lignes)}/{BATCH_SIZE})'
-    print(f'\n{label} - {len(lignes)} livres, {dispo} disponibles{manque}')
+    dispo = len(par_niche[niche])
+    alerte = '' if len(lignes) >= MIN_PAR_NICHE else \
+        f'  (sous le minimum de {MIN_PAR_NICHE} : vivier epuise)'
+    print(f'\n{label} - {len(lignes)} livres, {dispo} disponibles{alerte}')
     for r in lignes:
         print(f"  {r['design']:>3} | {r['nom'][:28]:<28} | {r['ville']:<16} | {r['domaine']}")
 
