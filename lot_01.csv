@@ -2,7 +2,7 @@ domaine;nom;niche;ville;commune;dept;design;anciennete;non_responsif;sans_https;
 espace-bois-66.com;Espace Bois Alu PVC;Artisanat & BTP;Perpignan;Saint-Laurent-de-la-Salanque (66250);66;55;3;oui;non;cfirsty®;layout en tableaux (9) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | police vintage
 petezki.fr;Petezki & Fils;Artisanat & BTP;Lyon;;69;67;6;oui;non;macromedia dreamweaver 8;layout en tableaux (9) | doctype ancien | non responsive | images .gif | pas de @media | px uniquement | pas de flex/grid | pas de variables CSS | aucun radius/ombre
 ardoise-zinc.fr;Ardoise et Zinc;Artisanat & BTP;Rennes;;35;56;8;oui;non;—;balises <font> (13) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
-atie-bat.fr;Atie Bat;Artisanat & BTP;Paris;;75;56;6;oui;non;—;balises <font> (2) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+lorconcept-toiture.com;Lor'Concept Toiture;Artisanat & BTP;Nancy;Tomblaine (54510);54;38;5;oui;non;—;doctype ancien | non responsive | pas de @media | pas de flex/grid
 biasini-electricite.com;Biasini;Artisanat & BTP;Toulouse;;31;56;6;oui;non;—;balises <font> (1) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
 tech-plomberie.fr;Tec Plomberie;Artisanat & BTP;Orleans;;45;56;6;oui;non;—;balises <font> (3) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
 fais-ci-fais-ca.com;Fais ci Fais ça;Artisanat & BTP;Paris;;75;54;9;oui;non;wordpress 3.0.1;<center> | doctype ancien | non responsive | document.write | pas de @media | pas de flex/grid | pas de variables CSS | police vintage
@@ -14,11 +14,11 @@ correiamanuelcoiffeurcreateur.site-solocal.com;Mannuel Correia;Beaute & Bien-etr
 atelier-arnaud-marie-coiffeur.fr;Arnaud Marie;Beaute & Bien-etre;Paris;;75;56;6;oui;non;—;balises <font> (4) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
 florentina-linea.fr;Florentina;Beaute & Bien-etre;Nantes;;44;47;8;oui;oui;—;balises <font> (1) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS
 babacanteen.com;Baba canteen;Restauration;Toulouse;;31;60;6;oui;non;—;balises <font> (5) | non responsive | document.write | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (3B) | aucun radius/ombre
-chezmario.fr;Chez Mario;Restauration;Bordeaux;;33;58;5;oui;oui;—;layout en tableaux (4) | doctype ancien | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+cafedesarts.alwaysdata.net;Café des Arts;Restauration;Caen;Herouville-Saint-Clair (14200);14;42;6;oui;non;—;<center> | non responsive | pas de @media | pas de flex/grid | pas de variables CSS
 azur-traiteur.fr;Azur Traiteur;Restauration;Aix-en-Provence;;13;52;8;oui;non;joomla! 1.5 - open source content management;layout en tableaux (7) | doctype ancien | non responsive | pas de @media | pas de flex/grid
 happy-pizz.com;Happy Pizz - Chez Jo;Restauration;Quimper;;29;49;6;oui;non;—;bgcolor= | doctype ancien | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
 boucherie-economique.fr;La boucherie économique;Restauration;Paris;Versailles (78000);75;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
-chapitre6.fr;Chapitre VI;Restauration;Lille;;59;45;8;oui;oui;—;balises <font> (1) | bgcolor= | frameset | sans doctype | non responsive
+restaurant-ariana.com;L'Ariana;Restauration;Nantes;;44;39;6;oui;non;—;balises <font> (1) | non responsive | pas de @media
 coignacsarl.site-solocal.com;Maison Coignac;Restauration;Limoges;Saint-Leonard-de-Noblat (87400);87;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
 technicauto69.fr;Technic Auto;Automobile;Lyon;;69;82;10;oui;oui;—;layout en tableaux (5) | balises <font> (1) | doctype ancien | non responsive | gif de mise en page | images .gif | pas de @media | px uniquement | pas de flex/grid | pas de variables CSS | aucun radius/ombre
 autopremium-66.fr;Top Garage Auto Premium 66;Automobile;Perpignan;Rivesaltes (66600);66;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre

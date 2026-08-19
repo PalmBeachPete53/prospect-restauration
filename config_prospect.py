@@ -230,6 +230,15 @@ NOT_QUALIFIED_DOMAINS = {
     # Pas un simple restaurant : domaine evenementiel/hotelier de 7 hectares
     # (eco-lodges, spa, 300 seminaires/an), hors profil vise par la campagne.
     'domainedelepau.com',
+    # Verification des fermetures du lot 1 (aout 2026) : "Definitivement
+    # ferme" confirme sur Google Maps.
+    'chezmario.fr',    # devenu "Aux deux saveurs" a la meme adresse
+    'chapitre6.fr',    # Chapitre VI, Templeuve-en-Pevele
+    # Cafe/epicerie associatif benevole (presse locale), pas un commerce.
+    'jeugny.fr',
+    # Entreprise sous la menace d'une liquidation judiciaire (presse locale
+    # avril 2026, cagnotte de sauvetage) : trop instable pour un prospect.
+    'franckspeisser.fr',
 }
 
 # Chaines, franchises et constructeurs : le site est gere au niveau national.
@@ -264,6 +273,8 @@ CHAIN_DOMAINS = (
     'marieoptique.site-solocal.com',        # petite chaine (Hinx/Mugron/Saint-Paul-les-Dax)
     'ateliersportcollector.fr',    # 2 points d'accueil (Bagneux et Montrouge)
     'axpfrance.com',                 # Groupe JMN, concessionnaire officiel Xerox
+    'atie-bat.fr',                   # 3 adresses actives a Paris sous la meme enseigne
+    'goutdepain.com',                # petite chaine de boulangeries a Aix-en-Provence (plusieurs enseignes fermees)
     # automobile
     'midas.fr', 'norauto.fr', 'feuvert.fr', 'speedy.fr', 'euromaster.',
     'roady.fr', 'vulco.com', 'point-s.fr', 'adaparts.', 'renault.fr',
