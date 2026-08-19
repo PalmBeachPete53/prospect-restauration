@@ -239,6 +239,12 @@ NOT_QUALIFIED_DOMAINS = {
     # Entreprise sous la menace d'une liquidation judiciaire (presse locale
     # avril 2026, cagnotte de sauvetage) : trop instable pour un prospect.
     'franckspeisser.fr',
+    # Verification des fermetures du lot 3 (aout 2026) : sites morts (page
+    # d'erreur), alors que les entreprises elles-memes sont actives et
+    # ouvertes (verifie sur le registre officiel et/ou Google Maps).
+    'fabien.coiffure.free.fr',  # entreprise active (Petton Fabien, Daoulas)
+    'langebleu.fr',              # entreprise active (L'Ange Bleu, Verson)
+    'atbirvoyages.com',          # entreprise active, a migre vers selectour.com
 }
 
 # Chaines, franchises et constructeurs : le site est gere au niveau national.
