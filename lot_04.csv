@@ -8,7 +8,7 @@ latelier-de-julien.fr;Atelier de Julien;Beaute & Bien-etre;Belfort;;90;56;6;oui;
 les-ateliers-du-cheveu.fr;Les Ateliers du Cheveu;Beaute & Bien-etre;Dieppe;;76;56;6;oui;non;—;balises <font> (1) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
 salon-forum.fr;Salon du Forum;Beaute & Bien-etre;Reims;;51;56;6;oui;non;—;balises <font> (6) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
 cotecoiffure69.fr;Côté Coiffure;Beaute & Bien-etre;Lyon;;69;54;9;oui;non;joomla! - open source content management;balises <font> (5) | <marquee> | non responsive | pas de @media | pas de flex/grid | pas de variables CSS
-happytime24.de;Christiane's Haarstudio;Beaute & Bien-etre;Strasbourg;;67;53;8;oui;oui;—;bgcolor= | doctype ancien | non responsive | images .gif | document.write | pas de @media | pas de flex/grid | aucun radius/ombre
+artetlunettes.fr;Art & Lunettes;Beaute & Bien-etre;Aix-en-Provence;;13;27;6;non;non;wordpress 4.9.31;balises <font> (3) | pas de @media | pas de variables CSS
 hoerdtoptique.com;Hoerdt Optique;Beaute & Bien-etre;Strasbourg;;67;53;8;oui;oui;—;balises <font> (6) | non responsive | <br> en masse | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
 megasun-biarritz.fr;megaSun;Beaute & Bien-etre;Bayonne;;64;51;8;oui;oui;—;balises <font> (12) | doctype ancien | non responsive | pas de @media | pas de flex/grid | aucun radius/ombre
 ayu-bienetre.fr;AYU bien-être;Beaute & Bien-etre;Strasbourg;;67;49;6;oui;non;—;layout en tableaux (5) | balises <font> (5) | bgcolor= | sans doctype | non responsive
@@ -24,7 +24,7 @@ ferme-de-trevarn.fr;Fromagerie de Trevarn;Restauration;Brest;;29;55;6;oui;non;�
 creperie.clementine.free.fr;Crêperie Clémentine;Restauration;Vichy;;3;54;8;oui;oui;bloc-notes;layout en tableaux (4) | balises <font> (6) | <center> | bgcolor= | sans doctype | non responsive
 jpn-automobiles.fr;Garage des 3 gares;Automobile;Paris;Viroflay (78220);75;56;8;oui;non;—;balises <font> (22) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
 axeauto.fr;Axe Auto;Automobile;Chambery;;73;56;6;oui;non;—;balises <font> (1) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
-bernard-agri.com;Bernard Matériels Agricoles;Automobile;Lyon;;69;56;6;oui;non;—;balises <font> (1) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+garage-olympic.fr;Garage Olympic;Automobile;Grenoble;;38;56;6;oui;non;—;balises <font> (4) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
 carrosserie-pont-de-vivaux.fr;Carosserie Pont de Vivaux;Automobile;Marseille;;13;56;6;oui;non;—;balises <font> (27) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
 corderie-voilerie-atlantique.fr;Corderie Voilerie de l'Atlantique;Automobile;Bordeaux;;33;56;6;oui;non;—;balises <font> (9) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
 berton-ballard.fr;Berton et Ballard;Services de proximite;Paris;Montrouge T (92120);75;56;6;oui;non;—;balises <font> (3) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre

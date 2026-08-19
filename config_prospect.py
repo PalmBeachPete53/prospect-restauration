@@ -245,6 +245,11 @@ NOT_QUALIFIED_DOMAINS = {
     'fabien.coiffure.free.fr',  # entreprise active (Petton Fabien, Daoulas)
     'langebleu.fr',              # entreprise active (L'Ange Bleu, Verson)
     'atbirvoyages.com',          # entreprise active, a migre vers selectour.com
+    # Verification des fermetures du lot 4 (aout 2026) : happytime24.de n'est
+    # pas le site du salon mais un portail/annuaire regional allemand
+    # generique ; l'etablissement associe (Christiane's Haarstudio) est en
+    # Allemagne (secteur Foret-Noire), pas dans la region de Strasbourg.
+    'happytime24.de',
 }
 
 # Chaines, franchises et constructeurs : le site est gere au niveau national.
@@ -281,6 +286,7 @@ CHAIN_DOMAINS = (
     'axpfrance.com',                 # Groupe JMN, concessionnaire officiel Xerox
     'atie-bat.fr',                   # 3 adresses actives a Paris sous la meme enseigne
     'goutdepain.com',                # petite chaine de boulangeries a Aix-en-Provence (plusieurs enseignes fermees)
+    'bernard-agri.com',              # 4 implantations (Dagneux, Saint-Maurice-l'Exil, Chatillon-sur-Chalaronne, Chevroux), ~50 salaries
     # automobile
     'midas.fr', 'norauto.fr', 'feuvert.fr', 'speedy.fr', 'euromaster.',
     'roady.fr', 'vulco.com', 'point-s.fr', 'adaparts.', 'renault.fr',
