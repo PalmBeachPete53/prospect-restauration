@@ -177,6 +177,31 @@ NOT_QUALIFIED_DOMAINS = {
     # Ecarte une premiere fois du lot 3, il etait revenu au lot 4 faute
     # d'etre inscrit ici - un retrait doit etre definitif.
     'max-poilane.fr',
+    # Verification lot 1 : ateliers associatifs benevoles partageant le tag OSM
+    # shop=bicycle avec les vrais commerces - aucun interet a demarcher.
+    'velocipaide.fr', 'rustine-beaulieu.weebly.com', 'velosapiens.fr',
+    'mecanosducoeur.fr',
+    # Entreprise de developpement web elle-meme (SAS ArchPhenix) : lui vendre
+    # une refonte de site serait contre-productif et discreditant.
+    'archphoenix.team',
+    # Doublon reel confirme : signature "Tracker Effilab" / suffixe "-lpa.fr",
+    # une agence qui cree un 2e site miroir vivant pour le meme commerce.
+    'garage-laban-rouen.fr', 'autopieces35.fr', 'garage-sallaberry.fr',
+    'ais-paris.fr', 'lazzarone-pizzeria.fr',
+    # Doublon reel confirme, meme entreprise sous 2 domaines actifs distincts.
+    'multitude-lyon.fr',
+    # Societe radiee du greffe de Nancy depuis 2015 (verifie sur Pappers).
+    'verandaconcept.fr',
+    # Site abandonne, pirate et injecte de spam casino en ligne.
+    'lepinceoreille.fr',
+    # Le domaine redirige desormais vers la page marketing generique d'un
+    # createur de sites ("Fresto") : ne represente plus le restaurant d'origine.
+    'freeresto.com',
+    # Mal categorise par OSM en restauration : commerce de plaques de
+    # muselets de champagne (collection), pas un restaurant.
+    'maisondesbulles.com',
+    # Google indique le commerce "Definitivement ferme".
+    'coiffurewallace.site-solocal.com',
 }
 
 # Chaines, franchises et constructeurs : le site est gere au niveau national.
@@ -190,6 +215,12 @@ CHAIN_DOMAINS = (
     'batteries-energie.com',       # 7 agences
     'alizes-pressing.fr',          # 19 pressings, 3 regions
     'coiff1rst.com',               # groupe de salons parisiens
+    'miroiterieduvaldemarne.fr',   # franchise Komilfo, 100+ magasins en reseau
+    'intercycle.fr',                # e-commerce pro, 3 magasins en Normandie
+    'delorme-automobile.com',      # concessionnaire multi-marques, 19 sites en Rhone-Alpes
+    'cybertek.fr',                  # franchise informatique (sous-domaines par ville)
+    'giovannigelateria.fr',        # chaine avec programme d'affiliation
+    'lacaveajules.com',            # chaine francaise de distribution de vins
     # automobile
     'midas.fr', 'norauto.fr', 'feuvert.fr', 'speedy.fr', 'euromaster.',
     'roady.fr', 'vulco.com', 'point-s.fr', 'adaparts.', 'renault.fr',
