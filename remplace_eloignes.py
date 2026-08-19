@@ -55,19 +55,30 @@ def km(a, b, c, d):
 _cp_cache = {}
 
 
-def coord_cp(cp):
-    """Centre officiel d'un code postal, via l'API geo de l'Etat."""
-    if cp in _cp_cache:
-        return _cp_cache[cp]
+def coord_cp(cp, nom_lu=None):
+    """Centre officiel d'un code postal, via l'API geo de l'Etat.
+
+    Un code postal peut couvrir plusieurs communes (87400 = Saint-Leonard-
+    de-Noblat ou Champnetery ; 66600 = Rivesaltes ou Calce...) : le premier
+    resultat de l'API n'est pas forcement le bon. Quand le nom de la commune
+    a ete lu sur la page du prospect, on le prefere au premier resultat.
+    """
+    cle = (cp, nom_lu)
+    if cle in _cp_cache:
+        return _cp_cache[cle]
     try:
         url = f'https://geo.api.gouv.fr/communes?codePostal={cp}&fields=nom,centre'
         with urllib.request.urlopen(url, timeout=15) as r:
             j = json.load(r)
-        c = j[0]['centre']['coordinates']
-        _cp_cache[cp] = (c[1], c[0], j[0]['nom'])
+        choix = j[0]
+        if nom_lu:
+            cible = norm(nom_lu)
+            choix = next((c for c in j if norm(c['nom']) == cible), choix)
+        c = choix['centre']['coordinates']
+        _cp_cache[cle] = (c[1], c[0], choix['nom'])
     except Exception:
-        _cp_cache[cp] = None
-    return _cp_cache[cp]
+        _cp_cache[cle] = None
+    return _cp_cache[cle]
 
 
 def page(dom):
@@ -100,7 +111,7 @@ def evalue(arg):
     # on garde l'adresse la plus proche : un site peut citer un fournisseur
     best = None
     for cp, _com in trouves:
-        c = coord_cp(cp)
+        c = coord_cp(cp, _com)
         if not c:
             continue
         d = km(cla, clo, c[0], c[1])
@@ -137,7 +148,8 @@ def main():
             com = (r.get('commune') or '').strip()
             if '(' not in com or r['ville'] not in CENTRES:
                 continue
-            c = coord_cp(com.split('(')[-1].strip(') '))
+            nom_com = com.split('(')[0].strip()
+            c = coord_cp(com.split('(')[-1].strip(') '), nom_com)
             if not c:
                 continue
             cla, clo = CENTRES[r['ville']]
