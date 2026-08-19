@@ -202,6 +202,34 @@ NOT_QUALIFIED_DOMAINS = {
     'maisondesbulles.com',
     # Google indique le commerce "Definitivement ferme".
     'coiffurewallace.site-solocal.com',
+    # Verification lot 2 : cafes/garages associatifs benevoles (loi 1901),
+    # aucun interet a demarcher malgre un tag OSM commercial.
+    'tacaissefuit.sitew.eu', 'ki6col.com', 'cafeincafe.fr', 'massage-ayurvedique.com',
+    # Mal categorises par OSM : un peintre plasticien, un arboriste-sculpteur,
+    # un fabricant B2B de triporteurs, un chateau viticole - aucun rapport avec
+    # la niche assignee (BTP, velo, restauration...).
+    'h4b.fr', 'jeremielanger.com', 'floriansbikes.com', 'chateaulapeyrade.com',
+    # Ce n'est pas un commerce : site de l'association des commercants du
+    # village de Palau-del-Vidre (annuaire local), mal etiquete "Espace Beaute".
+    'aca-palaudelvidre.fr',
+    # Societe radiee/liquidee (verifie sur Societe.com), le site est un zombie.
+    'gtb-pieces-auto.fr',
+    # Domaine expire recupere par un reseau de redirection publicitaire
+    # suspect ; l'entreprise utilise desormais un autre domaine.
+    'em-automotive.com',
+    # Domaine repurpose : redirige vers une plateforme d'annonces generique
+    # (autocadre.com), ne represente plus l'entreprise d'origine.
+    'auto-compagnie.fr',
+    # Doublon reel confirme : meme entreprise exploitant un 2e domaine actif
+    # sous un nom different (pas le motif "-lpa.fr" cette fois).
+    'celo-gaz.com', 'diag-power.com', 'mbmotors06.fr', 'galaxynet.fr',
+    '3dinfomac.com',
+    # Domaine redirige vers un site totalement different et professionnel :
+    # ne represente plus l'entreprise d'origine et n'est plus dégueu.
+    'biotifulhair.com',
+    # Pas un simple restaurant : domaine evenementiel/hotelier de 7 hectares
+    # (eco-lodges, spa, 300 seminaires/an), hors profil vise par la campagne.
+    'domainedelepau.com',
 }
 
 # Chaines, franchises et constructeurs : le site est gere au niveau national.
@@ -221,6 +249,21 @@ CHAIN_DOMAINS = (
     'cybertek.fr',                  # franchise informatique (sous-domaines par ville)
     'giovannigelateria.fr',        # chaine avec programme d'affiliation
     'lacaveajules.com',            # chaine francaise de distribution de vins
+    'monsieur-embrayage',           # franchise nationale (embrayages), plusieurs villes
+    'agencycar.fr',                 # reseau national de transaction auto premium
+    'cianni-automobile.fr',        # groupe familial de 3 entites liees (meme adresse)
+    'acoat-selected.fr',            # site du reseau national de carrosserie lui-meme
+    'marek-piecesauto.fr',         # petite chaine regionale (Perpignan/Prades/Sigean/Canet)
+    'leveodrome.com',               # chaine groupe HESS Automobile (Strasbourg/Dijon/Nancy/Mulhouse)
+    'lunigal.fr', 'lunigal.com',   # chaine opticiens, 4 boutiques en Ile-de-France
+    'lasavonneriedespyrenees.com', # petite chaine (Bayonne/Biarritz/Capbreton/Hossegor) + e-commerce
+    'espace-extensions.com',       # marque deposee, vente en gros aux pros + formations
+    'faridab.com',                  # marque nationale de produits capillaires, e-commerce + reseau
+    'kaneko-optical.fr',            # marque japonaise de lunettes, 2 boutiques a Paris
+    'lagordvisionoptique.site-solocal.com', # rattache au magasin Perigny Optique (2 sites)
+    'marieoptique.site-solocal.com',        # petite chaine (Hinx/Mugron/Saint-Paul-les-Dax)
+    'ateliersportcollector.fr',    # 2 points d'accueil (Bagneux et Montrouge)
+    'axpfrance.com',                 # Groupe JMN, concessionnaire officiel Xerox
     # automobile
     'midas.fr', 'norauto.fr', 'feuvert.fr', 'speedy.fr', 'euromaster.',
     'roady.fr', 'vulco.com', 'point-s.fr', 'adaparts.', 'renault.fr',
