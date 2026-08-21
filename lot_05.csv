@@ -1,0 +1,36 @@
+domaine;nom;niche;ville;commune;dept;design;anciennete;non_responsif;sans_https;techno;signaux_design
+maisonguerreiro.com;Maison Guerreiro et fils;Artisanat & BTP;Perpignan;;66;56;6;oui;non;—;balises <font> (3) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+plomberie-verneau.fr;Ch Verneau;Artisanat & BTP;Tours;;37;56;6;oui;non;—;balises <font> (11) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+thermeca-chauffagiste-94.fr;Thermeca;Artisanat & BTP;Paris;L'Haÿ-les-Roses (94240);75;56;6;oui;non;—;balises <font> (2) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+menuiserievibrac.fr;Menuiserie Vibrac;Artisanat & BTP;Nancy;;54;49;5;non;oui;—;layout en tableaux (7) | balises <font> (23) | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+crystal-froid.fr;Chrystal Froid;Artisanat & BTP;Toulon;;83;49;3;oui;non;—;non responsive | <br> en masse | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+coiffeur-sandrineleplet.fr;Sandrine Leplet;Beaute & Bien-etre;Belfort;;90;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+franckpontico.com;Franck Pontico;Beaute & Bien-etre;Bayonne;Soorts-Hossegor (40150);64;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+studio7coiffure.org;Studio 7;Beaute & Bien-etre;Lyon;;69;24;3;non;non;—;layout en tableaux (6) | balises <font> (8)
+massagethailandaisstetienne.fr;Saengla Nuad Thaï;Beaute & Bien-etre;Saint-Etienne;;42;40;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+atoutcontrast.com;Atout Contrast;Beaute & Bien-etre;Paris;;75;39;5;oui;non;—;doctype ancien | non responsive | images .gif | pas de @media | pas de variables CSS
+fleursdecerisier.fr;Fleurs de Cerisier;Beaute & Bien-etre;Lyon;;69;24;8;oui;non;oxatis (www.oxatis.com);<center> | non responsive | document.write
+mensattitude.fr;Men's Attitude;Beaute & Bien-etre;Lyon;;69;22;3;oui;non;ionos mywebsite;non responsive | pas de variables CSS | police vintage
+bandbsun.com;B&B Sun;Beaute & Bien-etre;Saint-Etienne;;42;37;5;oui;oui;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS
+hammam-lareinedesaba.fr;La Reine de Saba;Beaute & Bien-etre;Reims;;51;22;0;non;non;—;pas de @media | pas de flex/grid | pas de variables CSS
+ampelos31.fr;Ampelos;Restauration;Paris;;75;40;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+dolcevitamunster.com;La Dolce Vita;Restauration;Colmar;;68;51;11;oui;oui;adobe golive;layout en tableaux (4) | balises <font> (3) | bgcolor= | doctype ancien | non responsive | images .gif
+alabonneadresse.net;A La Bonne Adresse;Restauration;Bordeaux;;33;50;6;oui;non;lmsoft web creator pro, version:6.0.0.6;balises <font> (17) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+au-soleil-levant.fr;Au Soleil Levant;Restauration;Colmar;;68;48;3;oui;non;—;doctype ancien | non responsive | pas de @media | pas de flex/grid | pas de variables CSS | police vintage | aucun radius/ombre
+tofpizza.lapizza.fr;Tof Pizza;Restauration;Saint-Laurent-du-Var;;6;47;8;oui;oui;ma boutique en ligne (https://www.mbel.fr);balises <font> (6) | non responsive | pas de @media | pas de flex/grid | pas de variables CSS
+aixoesbe.com;Aixo ès bé;Restauration;Perpignan;;66;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+chezpitou.com;Chez Pitou;Restauration;Paris;VIROFLAY (78220);75;46;3;oui;non;—;non responsive | pas de @media | px uniquement | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+creperie-le-biniou.fr;Le Biniou;Restauration;Saint-Malo;;35;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+didier-boucherie.fr;Maison Didier;Restauration;Saint-Etienne;;42;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+garagelafayetteauto.fr;Garage Lafayette Auto;Automobile;Clermont-Ferrand;;63;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+motorsgarage.fr;Motor's Garage;Automobile;Paris;Courbevoie (92400);75;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+controle-technique-wavrin.com;AutoControl;Automobile;Lille;Wavrin (59136);59;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+faiteslevousmemeauto.fr;Faites-le vous-même AUTO;Automobile;Marseille;;13;52;6;oui;non;oxatis (www.oxatis.com);layout en tableaux (3) | balises <font> (1) | <center> | doctype ancien | non responsive | document.write
+expo7.fr;Expo 7;Automobile;Valence;;26;51;6;oui;non;—;balises <font> (1) | doctype ancien | non responsive | <br> en masse | pas de @media | pas de flex/grid
+lart-de-vivre.fr;L'Art de Vivre;Services de proximite;Tours;La Ville-aux-Dames (37700);37;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+atelier-photos-91.fr;Atelier Photo;Services de proximite;Paris;Verrières-le-Buisson (91370);75;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+auffray-ramon-calvados.fr;Pompes Funèbres Auffray Ramon;Services de proximite;Caen;;14;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+ankatours.fr;Anka Tours;Services de proximite;Lyon;;69;39;0;non;non;—;layout en tableaux (13) | pas de @media | pas de flex/grid | pas de variables CSS | aucun radius/ombre
+marbreriefuneraireviardot.fr;Pompes Funèbres Viardot;Services de proximite;Paris;Sannois (95110);75;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+flecksecurite-strasbourg.fr;Fleck;Services de proximite;Strasbourg;;67;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre
+laboratoire-zoe-photo.fr;Zoé Photo;Services de proximite;Paris;;75;46;3;oui;non;—;non responsive | pas de @media | pas de flex/grid | pas de variables CSS | CSS tres court (434B) | aucun radius/ombre

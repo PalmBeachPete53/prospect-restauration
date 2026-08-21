@@ -239,6 +239,9 @@ NOT_QUALIFIED_DOMAINS = {
     # Entreprise sous la menace d'une liquidation judiciaire (presse locale
     # avril 2026, cagnotte de sauvetage) : trop instable pour un prospect.
     'franckspeisser.fr',
+    # Verification des fermetures du lot 5 (aout 2026) : Google indique le
+    # commerce "Definitivement ferme" (Eckbolsheim, 67).
+    'dibling-service.fr',
     # Verification des fermetures du lot 3 (aout 2026) : sites morts (page
     # d'erreur), alors que les entreprises elles-memes sont actives et
     # ouvertes (verifie sur le registre officiel et/ou Google Maps).
